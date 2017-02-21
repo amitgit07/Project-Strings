@@ -1,0 +1,533 @@
+
+/*-  Localizable.strings
+ -  FastFish
+ 
+ -  Created by Mejdi Lassidi on 9/14/16.
+ -  Copyright © 2016 Next Square. All rights reserved.
+ -
+ MARK: Login*/
+"login_signup_register_with" = "التسجيل من خلال";
+
+/*https://cdn.noon.com/translation-content/login_signup_register.png*/
+"login_signup_or_register_with_details" = "أو التسجيل من خلال التفاصيل الشخصية";
+
+/*https://cdn.noon.com/translation-content/login_signup_register.png*/
+"login_signup_name" = "الاسم*";
+
+/*https://cdn.noon.com/translation-content/login_signup_register.png
+Fuzzy*/
+"login_signup_use_your_mobile" = "استخدم رقم الهاتف";
+
+/*https://cdn.noon.com/translation-content/login_signup_register.png*/
+"login_signup_create_password" = "كلمة السر*";
+
+/*https://cdn.noon.com/translation-content/login_signup_register.png*/
+"login_signup_create_account" = "التسجيل";
+
+/*https://cdn.noon.com/translation-content/login_signup_register.png*/
+"login_signup_login" = "دخول الحساب";
+
+/*REVIEWED BY RB*/
+"login_signup_email" = "البريد الإلكتروني*";
+
+/*REVIEWED BY RB*/
+"login_signup_mobile" = "الهاتف المتحرك*";
+
+/*REVIEWED BY RB*/
+"login_signup_forgot_password" = "هل نسيت كلمة السر؟";
+
+/*REVIEWED BY RB*/
+"login_signup_login_with_social_networks" = "تسجيل الدخول من خلال";
+"login_signup_verification_enter_otp" = "أدخل كلمة السر المؤلفة من 4 أرقام (ذات الاستخدام الواحد) أدناه";
+
+/*REVIEWED BY RB*/
+"login_signup_email_or_mobile" = "رقم الهاتف أو البريد الإلكتروني";
+
+/*REVIEWED BY RB*/
+"login_signup_email_or_mobile_required" = "يرجى إدخال البريد الإلكتروني أو رقم الهاتف";
+
+/*REVIEWED BY RB*/
+"login_signup_username_password_invalid_or_account_not_verified" = "عذراً، يرجى التحقق من بريدك الإلكتروني، وهاتفك المتحرك وكلمة السر والتأكد من من صحّة حسابك عبر إدخال كلمة السر ذات الاستخدام الواحد التي أرسلناها إليك";
+
+/*REVIEWED BY RB*/
+"login_signup_password_required" = "يرجى إدخال كلمة السر";
+
+/*REVIEWED BY RB*/
+"login_signup_provide_correct_email_mobile" = "يرجى إدخال البريد الإلكتروني أو رقم الهاتف";
+
+/*Reviewed by RB*/
+"login_signup_connect" = "اتصل";
+
+/*Reviewed by RB*/
+"login_signup_your_name" = "الاسم";
+
+/*Reviewed by RB*/
+"login_signup_name_required" = "الاسم مطلوب";
+
+/*Reviewed by RB*/
+"login_signup_wrong_number_format" = "الرقم الذي تم إدخاله غير صحيح، يرجى المحاولة مرة أخرى";
+"login_signup_verification_code_sent" = "تم إرسال الرمز التعريفي الى رقم الهاتف المسجل لدينا / إلى البريد الإلكتروني";
+
+/*Reviewed by RB*/
+"login_signup_mobile_required" = "يرجى إدخال رقم الهاتف";
+
+/*Reviewed by RB*/
+"login_signup_account_created" = "شكراً،  لقد تم التسجيل بنجاح!";
+"login_signup_already_registered_account" = "هناك حساب مسجل بهذا الرقم  أو البريد الإلكتروني، يرجى محاولة الدخول";
+"login_signup_wrong_verification_code" = "عذراً، الرمز التعريفي غير صحيح، حاول مجدداً";
+"login_signup_password_reset" = "إعادة ضبط كلمة السر";
+"login_signup_set_new_password" = "أدخل كلمة السر الجديدة";
+"login_signup_new_password" = "كلمة السر*";
+"login_signup_user_your_email_instead" = "أود الدخول بواسطة بريدي الإلكتروني";
+"login_signup_register" = "التسجيل";
+"login_signup_or_login_with_details_label" = "تسجيل الدخول من خلال تفاصيلك الشخصية";
+"login_signup_login_button" = "دخول الحساب";
+
+/*TODO design will change, all these texts may disappear:*/
+"login_signup_request_reset_password_alert_title" = "تغيير كلمة المرور";
+"login_signup_request_reset_password_alert_message" = "لتغيير كلمة السر أدخل عنوان البريد الإلكتروني أو رقم الهاتف المتحرك";
+"login_signup_user_request_reset_password_alert_confirm_button" = "تغيير";
+"login_signup_password_verification_alert_title" = "رقم التحقق السري";
+"login_signup_password_verification_alert_message" = "لقد قمنا بإرسال رقم تحقق سري، فضلاً قم بإدخاله هنا:";
+"login_signup_user_password_verification_alert_confirm_button" = "قم بالتحقق";
+"login_signup_reset_password_alert_title" = "كلمة السر الجديدة";
+"login_signup_reset_password_alert_message" = "يُرجى إدخال كلمة السر الجديدة";
+"login_signup_reset_password_alert_confirm_button" = "قم بالتغيير";
+"login_signup_reset_password_alert_success_message" = "تغيير كلمة السر";
+
+/*MARK: Home*/
+"home_login_title_label" = "تسجيل الدخول أو التسجيل";
+"home_login_button_title_label" = "تسجيل الدخول من خلال البريد الإلكتروني أو الهاتف";
+"home_product_list_see_all_label" = "الاطلاع على الكل";
+"home_allcategory_title_label" = "لم تجد طلبك؟";
+"home_allcategory_subtitle_label" = "اطلع على الملايين من المنتجات";
+"home_allcategory_title_button" = "الاطلاع على جميع الفئات";
+"home_allcategory_fashion" = "الأزياء";
+"home_allcategory_electronics" = "الإلكترونيات والهواتف";
+"home_allcategory_health" = "الصحة والجمال";
+"home_allcategory_sports" = "الرياضات والنشاطات الخارجية";
+"home_allcategory_books" = "الكتب والأفلام";
+"home_allcategory_toys" = "الألعاب";
+"home_allcategory_baby" = "منتجات الأطفال";
+"home_allcategory_home" = "المنزل والحديقة";
+"home_cart_component_view_cart_button" = "";
+"home_cart_from_your_cart_title_label" = "من سلتك";
+"home_search_history_title_label" = "استمر في البحث";
+"home_search_history_recent_searches_label" = "عمليات البحث الحديثة";
+"home_search_history_search_placeholder" = "عمّا تبحث اليوم؟";
+
+/*MARK: Sidemenu*/
+"menu_item_my_account_title_label" = "حسابي";
+"menu_item_home_title_label" = "الصفحة الرئيسة";
+"menu_item_shop_by_category_title_label" = "تسوّق بحسب الفئة";
+"menu_item_todays_deals_title_label" = "عروض اليوم";
+"menu_item_returns_title_label" = "الإرجاع والاستبدال";
+"menu_item_about_next_title_label" = "عن نون والسياسات";
+"menu_item_my_orders_label" = "طلباتي";
+"menu_item_invite_friends_label" = "قم بدعوة الأصدقاء";
+"menu_item_chat_label" = "تواصل معنا";
+"menu_item_customer_service_label" = "خدمة الزبائن";
+"menu_item_sign_in_label" = "تسجيل الدخول";
+
+/*Fuzzy*/
+"side_menu_guest" = "بك";
+
+/*Fuzzy*/
+"side_menu_welcome_text" = "مرحباً، %s";
+
+/*MARK: Cart*/
+"cart_items_one" = "";
+"cart_items_two" = "";
+"cart_items_multiple_less_or_equal_10" = "";
+"cart_items_multiple_greater_than_10" = "";
+"cart_summary_total" = "";
+"cart_summary_excluding_shipping" = "";
+"cart_empty_message" = "";
+
+/*not approved yet, needs review.*/
+"cart_checkout_title" = "دفع آمن";
+"cart_continue_shopping" = "";
+"cart_item_remove" = "";
+
+/*MARK: Address*/
+"address_type_work" = "";
+"address_type_home" = "";
+"address_default" = "";
+"address_make_default" = "";
+"address_add_new_address_button" = "";
+"address_add_or_change_button" = "";
+"address_edit_address_button" = "";
+"address_no_addresses_label" = "";
+"address_delivery_type_personal_label" = "";
+"address_delivery_cost_from_f1" = "من %s";
+"address_components_seperator" = "";
+"address_map_current_location_button" = "";
+"address_map_search_error_title" = "نعتذر، لم يتم العثور على هذا العنوان.";
+"address_map_search_error_subtitle" = "يرجى اختيار اسم للموقع مثال: وسط مدينة دبي، الكرامة، أبراج بحيرة جميرا أو اسم المبنى مثال: JBC، تايجر";
+"address_map_done" = "";
+"address_map_empty_label" = "";
+"address_map_searching_label" = "بصدد البحث";
+"address_map_location_found_label" = "";
+"address_form_almost_done_title" = "";
+"address_form_almost_done_subtitle" = "";
+"address_form_delivery_address" = "عنوان التوصيل";
+"address_form_country" = "";
+"address_form_city" = "";
+"address_form_building" = "";
+"address_form_flat_number" = "";
+"address_form_floor_number" = "";
+"address_form_area" = "";
+"address_form_street" = "";
+"address_form_details_for_courier" = "";
+"address_form_business_address_checkbox" = "";
+"address_form_business_name" = "";
+"address_form_contact_details" = "";
+"address_form_name" = "";
+"address_form_phone" = "";
+"address_checkout_delivery_address_label" = "عنوان التوصيل";
+"checkout_address_selection_error_cant_deliver_to_selected_adress" = "";
+"checkout_address_selection_error_failed_to_obtain_shipments" = "";
+"checkout_leave_alert_question" = "هل تود إنهاء عملية الخروج";
+"checkout_order_summary_delivery_option_title" = "خيارات التوصيل";
+"checkout_order_summary_price_subtotal" = "إجمالي الطلبية";
+"checkout_order_summary_price_shipping" = "إجمالي تكاليف التوصيل";
+"checkout_order_summary_price_on_delivery" = "الدفع عند الإستلام";
+"checkout_order_summary_shipping_price_unknown" = "";
+"checkout_order_summary_selected_address_title" = "الشحن الى";
+"checkout_order_summary_selected_payment_title" = "الدفع";
+"checkout_order_summary_selected_wallet_f1" = "محفظتي %d";
+"checkout_order_summary_shipment_title_f1" = "الشحنة %d";
+"checkout_order_summary_review_title" = "مراجعة";
+"checkout_order_summary_review_subtitle" = "يرجى التأكد من التفاصيل المدخلة هنا لإتمام عملية الشراء";
+"checkout_order_summary_place_order_button" = "وضع الطلب";
+"checkout_order_summary_error_not_enough_cash" = "";
+
+/*need approval*/
+"checkout_order_summary_copyright_ios" = "";
+"checkout_order_summary_copyright_terms_conditions_ios" = "";
+"checkout_order_summary_copyright_privacy_policy_ios" = "سياسة الخصوصية";
+"checkout_payment_title" = "الدفعة";
+"checkout_payment_saved_cards_title" = "";
+"checkout_payment_change_card_button" = "تغيير بطاقة";
+"checkout_payment_add_new_card_button" = "اضافة بطاقة جديدة";
+"checkout_payment_scan_card_button" = "مسح البطاقة";
+"checkout_payment_name_on_card_label" = "الاسم كما يظهر على البطاقة";
+"checkout_payment_name_on_card_placeholder" = "";
+"checkout_payment_card_number_label" = "رقم البطاقة";
+"checkout_payment_card_number_placeholder" = "";
+"checkout_payment_card_expiry_date_label" = "تاريخ انتهاء البطاقة";
+"checkout_payment_card_expiry_date_year_placeholder" = "";
+"checkout_payment_card_expiry_date_month_placeholder" = "";
+"checkout_payment_cvv_number_label" = "CVV*";
+"checkout_payment_cvv_number_placeholder" = "";
+"checkout_payment_make_card_default_checkbox" = "";
+"checkout_payment_add_card_save_button" = "حفظ البطاقة";
+"checkout_payment_add_card_cancel_button" = "إلغاء";
+"checkout_payment_add_card_error_incorrect_information" = "";
+"checkout_payment_add_card_error_invalid_card" = "";
+"checkout_payment_add_card_error_empty_card" = "";
+"checkout_payment_add_card_error_incomplete_information" = "";
+"checkout_payment_credit_card_title" = "";
+"checkout_payment_credit_card_default_label" = "";
+"checkout_payment_please_enter_cvv" = "";
+"checkout_payment_wallet_title" = "محفظتي";
+"checkout_payment_wallet_available_balance_label" = "";
+"checkout_payment_pay_on_delivery_title" = "الدفع عند الإستلام";
+"checkout_payment_pay_on_delivery_cost_label_f1" = "%s  للتوصيل الواحد";
+"checkout_payment_pay_with_label" = "ادفع بواسطة";
+"checkout_payment_secure_payment_label" = "دفع آمن";
+"cart_items_zero" = "";
+"order_details_header_single_item" = "(1 منتج)";
+"order_details_shipment_shipment_of_word" = "من";
+"order_details_shipment_tracking_id" = "رقم التتبع: #";
+"order_details_shipment_cell_no_delivery_available" = "";
+"myorders_no_placed_orders_title" = "لم تقم بطلب أي منتج بعد";
+"myorders_start_shopping" = "ابدأ بالتسوق";
+"myorders_order_date_title" = "تاريخ الطلب:";
+"myorders_shipment_count_title" = "إجمالي الشحنات :";
+"myorders_items_count_title" = "إجمالي المنتجات:";
+"myorders_total_price_title" = "القيمة الإجمالية:";
+"myorders_ordercell_orderid_f1" = "رقم الطلب #%s";
+"myorders_more_images_counter_f1" = "";
+"myorders_order_state_delivered" = "تم التوصيل في ";
+"myorders_order_state_expected_delivery" = "تاريخ التوصيل المتوقّع";
+"myorders_order_state_cancelled" = "تم الإلغاء";
+"myorders_order_state_on_hold" = "قيد الانتظار";
+"myorders_order_state_delivery_failed" = "قمنا بمحاولة التوصيل";
+"myorders_order_state_unkown" = "";
+
+/*Fuzzy*/
+"myorders_order_state_delivery_failed_call_us_f1" = "يرجى الاتصال بنا على %s";
+"order_details_shipment_deliver_by" = "التوصيل بواسطة";
+"order_details_shipment_payment_method_unknown" = "";
+"order_details_shipment_payment_method_wallet" = "محفظتي";
+"order_details_shipment_payment_method_cod" = "الدفع عند الإستلام ";
+"order_details_shipment_payment_method_title" = "طريقة الدفع";
+"order_details_shipment_deliver_to_title" = "التوصيل إلى";
+"order_details_shipment_cancelled_items_title" = "المنتجات الملغاة";
+"order_details_shipment_track_shipment_title" = "أين شحنتي؟";
+"order_details_shipment_download_invoice" = "تنزيل الفاتورة";
+"order_details_shipment_return_exchange" = "الإرجاع والاستبدال";
+"order_details_shipment_shipping_title" = "التوصيل: خطوة ";
+"order_details_shipment_status_delivery_failed_f1" = "قمنا بمحاولة التوصيل\nيرجى الاتصال بنا على %s";
+"order_details_shipment_status_order_placed" = "تم تسجيل الطلبية";
+"order_details_shipment_status_shipped" = "تم شحن الطلبية";
+"order_details_shipment_status_expected_delivery" = "موعد التوصيل المتوقع";
+"order_details_shipment_status_delivered" = "تم التوصيل ";
+"order_details_shipment_status_cancel_requested" = "";
+"order_details_shipment_status_cancelled" = "تم الإلغاء";
+"order_details_shipment_cancel_shipment" = "إلغاء عملية الشحن";
+"order_details_shipment_cancel_items" = "إلغاء المشتريات";
+"order_details_shipment_cancel_order" = "";
+"order_details_shipment_aramex_how_to_cancel" = "";
+"checkout_order_summary_copyright_android" = "";
+"checkout_payment_add_card_error_incorrect_cvv" = "";
+"checkout_payment_add_card_error_incorrect_card_number" = "رقم البطاقة غير صحيح";
+"checkout_payment_add_card_error_incorrect_expiry_date" = "";
+
+/*MARK: Wallet*/
+"wallet_screen_tab_bar_transactions" = "";
+"wallet_screen_tab_bar_cards" = "البطاقات المحفوظة";
+"wallet_screen_transaction_status_completed" = "";
+"wallet_screen_transaction_status_pending" = "";
+
+/*Fuzzy*/
+"wallet_screen_transaction_id_ios" = "رقم المعاملة";
+"wallet_screen_your_balance_label" = "المتوفر بحسابك";
+
+/*MARK: Returns*/
+"returns_screen_order_number_label" = "";
+"returns_screen_selected_pickup_location_label" = "الرجاء اختيار موقع الإستلام";
+"returns_screen_selected_pickup_date_label" = "تاريخ إستلام المنتج المرتجع";
+"returns_screen_selected_pickup_time_slot" = "الفترة الزمنية المناسبة";
+"returns_screen_calendar_add_label" = "أضف إلى تقويمي";
+"returns_screen_calendar_added_label" = "";
+"returns_screen_calendar_not_added_label" = "";
+"returns_screen_return_date_label" = "";
+"returns_screen_return_id_label" = "";
+"return_screen_return_amount_label" = "";
+"returns_screen_return_reason_label" = "";
+"returns_screen_return_reason_none_label" = "";
+"returns_screen_invoice_number_label" = "";
+"returns_screen_order_id_label" = "رقم الطلب:";
+"returns_screen_order_date_label" = "تاريخ الطلب:";
+"returns_screen_item_time_remaining_label" = "الوقت المتبقي";
+"returns_screen_reurn_history_label" = "";
+"returns_screen_return_items_title" = "إرجاع المنتجات";
+"returns_screen_return_detail_primary_reason_placeholder" = "يرجى منك اختيار سبب إرجاعك لهذا المنتج";
+"returns_screen_return_detail_refund_choice_placeholder" = "";
+"returns_screen_return_detail_replace_choice_no" = "لا، أريد إرجاعه";
+"returns_screen_return_detail_replace_choice_placeholder" = "";
+"returns_screen_returns_pickup_details_address_selection_placeholder" = "";
+"returns_screen_returns_pickup_details_date_selection_placeholder" = "";
+"returns_screen_returns_pickup_details_time_slot_selection_placeholder" = "";
+"returns_screen_thank_you_page_title" = "تم اجراء الطلب بنجاح، رقمك هو:";
+"returns_screen_thank_you_page_continue_shopping_button" = "متابعة التسوق";
+
+/*MARK: My Account*/
+"my_account_menu_orders" = "جميع الطلبات";
+"my_account_menu_wallet" = "محفظتك";
+"my_account_menu_returns" = "الإرجاع والاستبدال";
+"my_account_menu_address_book" = "دفتر العناوين";
+"my_account_menu_profile" = "معلوماتي الشخصية";
+
+/*MARK: My Profile*/
+"my_profile_logout_button" = "تسجيل الخروج";
+"my_profile_welcome_text_label" = "مرحبا، %s";
+"my_profile_logout_success_message_label" = "لقد تم تسجيل الخروج";
+"my_profile_logout_popup_question_label" = "هل أنت متأكد من تسجيل الخروج ؟";
+
+/*MARK: Common strings*/
+"common_continue" = "الإستمرار";
+"common_cancel" = "إلغاء";
+"common_ok" = "موافق";
+"common_yes" = "نعم";
+"common_no" = "لا";
+"common_clear" = "إلغاء";
+"common_unknown" = "غير معروف";
+"common_something_went_wrong" = "حدث خطأ ما";
+
+/*MARK: - My Orders and Order Details -*/
+"order_details_header_multiple_items_less_or_equal_10_f1" = "(%d منتجات)";
+"order_details_header_multiple_items_greater_than_10_f1" = "(%d منتج)";
+
+/*MARK: Search*/
+"search_screen_no_results_header_format_f1" = "لم يتم العثور على منتج مطابق لل \\'%s\\' الذي تبحث عنه";
+"search_screen_sort_item_relevance_label" = "الصلة";
+"search_screen_sort_item_price_low_high_label" = "السعر (الأدنى إلى الأعلى)";
+"search_screen_sort_item_price_high_low_label" = "السعر (الأعلى إلى الأدنى)";
+"search_screen_header_sort_button" = "التصنيف";
+"search_screen_header_filter_button" = "تصفية";
+"search_screen_header_filter_button_with_number_f1" = "(%d) تصفية";
+"search_screen_recent_searches_label" = "آخر مصطلحات البحث";
+"search_screen_popular_searches_label" = "مصطلحات البحث الشائعة";
+"search_screen_sort_popup_title" = "التصنيف حسب";
+"search_screen_filter_screen_category_label" = "الفئات";
+"search_screen_filter_screen_apply_button" = "تم";
+"search_screen_filter_screen_filter_button" = "تصفية";
+"search_screen_filter_screen_clear_button" = "إلغاء";
+"search_screen_filter_screen_price_label" = "السعر";
+"navigation_placeholder_what_looking_for_label" = "عمّا تبحث اليوم؟";
+"navigation_placeholder_search_in_category_f1" = "";
+"search_screen_related_searches_title" = "مصطلحات البحث ذات الصلة";
+"login_signup_logout_success_message" = "";
+
+/*MARK: Product details*/
+"product_details_add_to_cart" = "أضف إلى عربة التسوق";
+"product_details_added_to_cart" = "";
+"product_details_description_title" = "الوصف";
+"product_details_specifications_title" = "المواصفات";
+"product_details_related_videos" = "مقاطع فيديو ذات صلة";
+"product_details_related_products_title" = "";
+"product_details_recommended_products_title" = "";
+"product_details_frequently_bought_together_total_f1" = "";
+"product_details_frequently_bought_together_title" = "منتجات ذات صلة";
+"product_details_promise_genuine" = "";
+"product_details_promise_returns" = "";
+"product_details_promise_sold_by_f1" = "";
+"product_details_buy_now_button" = "الشراء الآن";
+"product_details_customer_reviews" = "";
+"product_details_write_review_button" = "أضف تقييماً";
+"product_details_reviews_see_all_f1" = "";
+"product_details_reviews_author_and_date_f2" = "%2$s، %1$s";
+"product_details_other_offers" = "";
+"product_details_one_more_offer" = "";
+"product_details_more_offers_singular_f1" = "%d عرض إضافي";
+"product_details_more_offers_plural_f1" = "%d عروض إضافية";
+"product_details_more_offers_price_and_above_f1" = "%s وأعلى";
+"product_details_one_more_offer_from" = "";
+"product_details_more_offers_from_singular_f1" = "%d عرض إضافي من";
+"product_details_more_offers_from_plural_f1" = "%d عروض إضافية من";
+"product_details_delivery_location_title" = "مكان التوصيل";
+"product_details_delivery_location_enter_location" = "تحديد الموقع";
+"product_details_delivery_location_delivery_options" = "";
+"product_details_delivery_location_select_emirate" = "";
+"product_details_delivery_location_select_district" = "";
+"product_details_delivery_location_delivery_options_title" = "";
+"product_details_delivery_location_delivery_options_free" = "";
+"product_details_about_this_product_title" = "معلومات عن المنتج";
+"product_details_variant_picker_variant_out_of_stock_f1" = "";
+"wallet_screen_transaction_id_f1_android" = "";
+"login_signup_email_address" = "";
+"login_signup_place_card" = "";
+"login_signup_enter_otp" = "";
+"common_done" = "";
+"common_coming_soon" = "";
+"common_picker_select_title_f1" = "";
+"wallet_screen_transaction_id" = "";
+"wallet_screen_cards_empty_state" = "";
+"wallet_screen_transactions_empty_state" = "";
+"returns_screen_return_id_label_f1" = "";
+"returns_screen_return_amount_label" = "";
+"returns_screen_return_detail_replace_choice_yes" = "";
+"address_save_button" = "";
+
+/*MARK: Checkout*/
+"checkout_address_selection_error_ok_button" = "";
+"checkout_order_summary_title" = "";
+"checkout_order_summary_total_price" = "القيمة الإجمالية:";
+"checkout_payment_add_card_title" = "";
+"checkout_progress_step_address_title" = "";
+"checkout_progress_step_payment_title" = "";
+"checkout_progress_step_summary_title" = "";
+"checkout_thankyou_add_to_calendar_event_title" = "";
+"checkout_thankyou_add_to_calendar_success" = "";
+"checkout_thankyou_add_to_calendar_failed" = "";
+"checkout_thankyou_helpcard_title" = "";
+"checkout_thankyou_helpcard_call_us_button_f1" = "";
+"checkout_thankyou_helpcard_operation_time_label_f1" = "";
+"checkout_thankyou_helpcard_call_time_label" = "";
+"checkout_thankyou_helpcard_call_error" = "";
+"checkout_thankyou_share_title" = "";
+"checkout_thankyou_done_button" = "";
+"checkout_thankyou_message_f1" = "";
+"checkout_thankyou_confirmation_message_f1" = "";
+"checkout_error_out_of_stock" = "";
+"order_details_download_invoice" = "تنزيل الفاتورة";
+"order_details_order_date_title" = "تاريخ الطلب:";
+"order_details_shipment_count_title" = "إجمالي الشحنات: ";
+"order_details_item_count_title" = "إجمالي المنتجات:";
+"myorders_order_state_multiple_shipment_delivery" = "";
+"order_details_shipment_status_expected_to_be_shipped" = "";
+
+/*MARK: Misc*/
+"calendar_event_title_f1" = "";
+"calendar_access_error_message" = "";
+"order_details_cancel_aramex_info_message" = "يمكنك إرجاع المنتجات بعد توصيلها أو رفض استلامها عند التوصيل";
+"login_signup_use_your_email" = "استخدم البريد الإلكتروني";
+"login_signup_choose_country_code" = "اختر رمز الدولة";
+"login_signup_privacy_footer" = "من خلال التسجيل، أنت توافق على أحكام الخدمة وسياسة الخصوصية";
+"login_signup_multiple_invalid_password" = "يبدو أنك لم تتمكن من تذكر كلمة السر الخاصة بك";
+
+/*Fuzzy*/
+"login_signup_resend_sms" = "إعادة إرسال رسالة الـ SMS";
+
+/*Fuzzy*/
+"login_signup_resend_email" = "إعادة إرسال رسالة البريد الإلكتروني";
+"login_signup_sms_verification_sent" = "تم إرسال رسالة SMS للتحقق";
+"login_signup_email_verification_sent" = "تم إرسال رسالة عبر البريد الإلكتروني للتحقق";
+"login_signup_email_sent" = "تم إرسال رسالة البريد الإلكتروني";
+"login_signup_sms_sent" = "تم إرسال رسالة الـ SMS";
+
+/*MARK: Search Filter*/
+"Brand" = "الماركة";
+"Color" = "اللون";
+"Size" = "المقاس";
+"product_details_size_guide_button" = "دليل المقاسات";
+"product_details_select_size_picker_title" = "اختيار المقاس";
+"product_details_select_color" = "اختيار اللون";
+"login_signup_forgot_password_title" = "هل نسيت كلمة السر؟ لا تقلق، نحن هنا لمساعدتك!";
+"login_signup_forgot_password_enter_account" = "أدخل بريدك الإلكتروني أو رقم الهاتف المتحرك الذي استخدمته للتسجيل وسنساعدك على إعادة ضبط كلمة السر الخاصة بك.";
+"login_signup_forgot_password_mobile_email" = "رقم الهاتف أو البريد الإلكتروني*";
+
+/*Fuzzy*/
+"login_signup_forgot_password_reset_password" = "إعادة ضبط كلمة السر";
+"login_signup_forgot_password_reset" = "إعادة الضبط";
+
+/*Fuzzy*/
+"login_signup_new_password_confirm" = "تأكيد كلمة السر*";
+"login_signup_forgot_password_privacy_footer" = "من خلال التسجيل، أنت توافق على أحكام الاستخدام وسياسة الخصوصية";
+"login_signup_forgot_password_invalid_email" = "يرجى إدخال عنوان بريد إلكتروني صالح";
+"login_signup_forgot_password_next_attempt_one" = "المحاولة التالية خلال دقيقة";
+"login_signup_forgot_password_next_attempt_two" = "المحاولة التالية خلال دقيقتين";
+"login_signup_forgot_password_next_attempt_less_than_10" = "المحاولة التالية خلال %d دقائق";
+"login_signup_forgot_password_next_attempt_greater_than_10" = "المحاولة التالية خلال %d دقيقة";
+
+/*Fuzzy*/
+"home_order_tracking_status_title" = "Shipment status update";
+
+/*Fuzzy*/
+"home_order_tracking_shipment_title" = "Shipment items";
+
+/*Fuzzy*/
+"home_order_tracking_view_all" = "View all orders";
+"product_details_missing_select_parameter_error_message" = "";
+"login_signup_forgot_password_account_changed_title" = "Has your mobile number or email address changed?";
+"login_signup_forgot_password_account_changed_subtitle" = "No problem, Contact Customer Service can help you access your account.";
+"order_details_shipments_deliver_to_address_delimiter" = " - ";
+"order_details_shipments_aramex_cancel_info" = "";
+"order_details_cancel_selectReason_button" = "";
+"order_details_cancel_selectedReason" = "";
+"language_preferred_user_language_instruction_ios" = "Do you want to change your App language to English?";
+"language_preferred_user_language_change_ios" = "Change";
+"language_preferred_user_language_not_change_ios" = "Don't change";
+"language_preferred_user_language_title_ios" = "Change App language";
+"language_change_instruction_ios" = "For optimal performance with your chosen language, please restart you app. Restart now?";
+"language_change_alert_restart_ios" = "Restart";
+"language_change_alert_dismiss_ios" = "Dismiss";
+"language_change_alert_notice_ios" = "Notice!";
+"language_change_title_ios" = "Please select your language";
+"login_signup_error_invalid_email_mobile_number" = "";
+"cart_icon_badge_max_value" = "99+";
+"login_signup_otp_text_sent_message_f1" = "";
+"navigation_drawer_open_description_android" = "";
+"navigation_drawer_close_description_android" = "";
+"common_close" = "";
+"login_signup_error_enter_email_mobile_number" = "";
+"login_signup_error_enter_email" = "";
+"login_signup_error_invalid_email" = "";
+"login_signup_error_enter_mobile_number" = "";
+"login_signup_error_invalid_mobile_number" = "";
+"login_signup_error_password_length" = "";
+"login_signup_error_enter_name" = "";
+"login_signup_otp_invalid_code" = "";
