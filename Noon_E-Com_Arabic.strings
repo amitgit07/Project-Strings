@@ -195,7 +195,7 @@ Fuzzy*/
 "checkout_order_summary_shipping_price_unknown" = "";
 "checkout_order_summary_selected_address_title" = "الشحن الى";
 "checkout_order_summary_selected_payment_title" = "الدفع";
-"checkout_order_summary_selected_wallet_f1" = "محفظتي %d";
+"checkout_order_summary_selected_wallet_f1" = "محفظتي %s";
 "checkout_order_summary_shipment_title_f1" = "الشحنة %d";
 "checkout_order_summary_review_title" = "مراجعة";
 "checkout_order_summary_review_subtitle" = "يرجى التأكد من التفاصيل المدخلة هنا لإتمام عملية الشراء";
@@ -494,13 +494,13 @@ Fuzzy*/
 "login_signup_forgot_password_next_attempt_greater_than_10" = "المحاولة التالية خلال %d دقيقة";
 
 /*Fuzzy*/
-"home_order_tracking_status_title" = "Shipment status update";
+"home_order_tracking_status_title" = "الوضع الحالي للطلب";
 
 /*Fuzzy*/
-"home_order_tracking_shipment_title" = "Shipment items";
+"home_order_tracking_shipment_title" = "المنتجات ضمن الطلب";
 
 /*Fuzzy*/
-"home_order_tracking_view_all" = "View all orders";
+"home_order_tracking_view_all" = "الاطلاع على جميع الطلبات >";
 "product_details_missing_select_parameter_error_message" = "";
 "login_signup_forgot_password_account_changed_title" = "Has your mobile number or email address changed?";
 "login_signup_forgot_password_account_changed_subtitle" = "No problem, Contact Customer Service can help you access your account.";
@@ -531,3 +531,45 @@ Fuzzy*/
 "login_signup_error_password_length" = "";
 "login_signup_error_enter_name" = "";
 "login_signup_otp_invalid_code" = "";
+
+/*MARK: Category*/
+"category_screen_no_item_label" = "";
+"category_screen_subcategories_list_title" = "";
+
+/*MARK: Product List*/
+"product_list_no_item_label" = "";
+"product_list_no_recently_viewed_itemsm" = "";
+"product_list_no_recommended_items" = "";
+
+/*MARK: Common Error*/
+"common_error_request_5xx_title" = "";
+"common_error_request_5xx_message" = "";
+"common_error_request_4xx_title" = "";
+"common_error_request_4xx_message" = "";
+"common_error_empty_textfield" = "";
+"common_error_empty_password" = "";
+"common_error_invalid_email_address" = "";
+"common_error_too_long_username" = "";
+"common_error_invalid_phone_number" = "";
+"common_error_invalid_number" = "";
+
+/*MARK: Wallet*/
+"wallet_credit_card_cell_type_default_label" = "";
+"wallet_credit_card_cell_make_default_label" = "";
+"wallet_credit_card_cell_expiry_label" = "";
+"wallet_credit_card_cell_edit_button" = "";
+"wallet_credit_card_cell_delete_button" = "";
+"wallet_credit_transaction_cell_type_cash_label" = "";
+
+/*MARK: Settings*/
+"settings_screen_title_legal_label" = "";
+"settings_screen_privacy_policy_label" = "";
+"settings_screen_terms_of_use_label" = "";
+"settings_screen_terms_of_sale_label" = "";
+
+/*MARK: Permission:*/
+"permission_location_message" = "";
+"permission_location_title" = "";
+"search_bar_placeholder_what_looking_for_label" = "";
+"search_bar_placeholder_search_in_category_f1" = "";
+"common_copyright" = "";
