@@ -641,3 +641,4 @@ Fuzzy*/
 "search_bar_placeholder_what_looking_for_label" = "What are you looking for today?";
 "search_bar_placeholder_search_in_category_f1" = "Search in %s";
 "common_copyright" = "Copyright (c) 2017 noon.";
+"returns_screen_selected_pickup_time_between" = "Between %1$s and %2$s";
