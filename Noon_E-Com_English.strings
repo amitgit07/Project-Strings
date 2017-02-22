@@ -155,8 +155,8 @@ Fuzzy*/
 "cart_items_two" = "two items in your cart";
 "cart_items_multiple_less_or_equal_10" = "%1$d items in your cart";
 "cart_items_multiple_greater_than_10" = "%1$d items in your cart";
-"cart_summary_total" = "Total:";
-"cart_summary_excluding_shipping" = "excluding shipping";
+"cart_summary_total" = "Order total";
+"cart_summary_excluding_shipping" = "excluding shipping fee";
 "cart_empty_message" = "Your cart is empty";
 
 /*not approved yet, needs review.*/
@@ -201,7 +201,7 @@ Fuzzy*/
 "address_form_contact_details" = "Contact details";
 "address_form_name" = "Name";
 "address_form_phone" = "Phone";
-"address_checkout_delivery_address_label" = "Delivery address";
+"address_checkout_delivery_address_label" = "Select your delivery method";
 "checkout_address_selection_error_cant_deliver_to_selected_adress" = "Can not deliver to the selected Address";
 
 /*What does this actually mean to a customer I'm confused?*/
@@ -288,7 +288,7 @@ Fuzzy*/
 "myorders_order_state_cancelled" = "Cancelled";
 "myorders_order_state_on_hold" = "On hold";
 "myorders_order_state_delivery_failed" = "Delivery attempted";
-"myorders_order_state_unkown" = "Unkown";
+"myorders_order_state_unkown" = "Unknown";
 
 /*Fuzzy*/
 "myorders_order_state_delivery_failed_call_us_f1" = "Please contact us at %s";
@@ -496,7 +496,9 @@ Fuzzy*/
 "checkout_thankyou_done_button" = "Done";
 "checkout_thankyou_message_f1" = "Mabrook! Thank you for your order %s";
 "checkout_thankyou_confirmation_message_f1" = "Thank you. Your order is currently being processed. Please keep an eye out for our order confirmation message, which will be sent to: %s";
-"checkout_error_out_of_stock" = "Sorry, we’ve run out of stock";
+
+/*Fuzzy*/
+"checkout_error_out_of_stock_all" = "Sorry, we’ve run out of stock of %s.\\nWhy not check out some of our other similar products?";
 "order_details_download_invoice" = "Download invoice";
 "order_details_order_date_title" = "Order date:";
 "order_details_shipment_count_title" = "Total shipments:";
@@ -554,8 +556,12 @@ Fuzzy*/
 "login_signup_forgot_password_account_changed_subtitle" = "إن كنت لم تعد تستخدم البريد الإلكتروني أو رقم الهاتف المسجلين في حسابك الخاص في نون، تواصل مع فريق خدمة العملاء ليساعدك أحدهم على الدخول إلى حسابك.";
 "order_details_shipments_deliver_to_address_delimiter" = ", ";
 "order_details_shipments_aramex_cancel_info" = "You can return items once they are delivered or reject your order on delivery";
-"order_details_cancel_selectReason_button" = "Select reason";
-"order_details_cancel_selectedReason" = "Selected reason";
+
+/*Fuzzy*/
+"order_details_cancel_select_reason_button" = "Select reason";
+
+/*Fuzzy*/
+"order_details_cancel_selected_reason" = "Selected reason";
 
 /*Intentionally in Arabic*/
 "language_preferred_user_language_instruction_ios" = "هل تود تغيير لغة التطبيق للعربية ؟";
@@ -642,3 +648,20 @@ Fuzzy*/
 "search_bar_placeholder_search_in_category_f1" = "Search in %s";
 "common_copyright" = "Copyright (c) 2017 noon.";
 "returns_screen_selected_pickup_time_between" = "Between %1$s and %2$s";
+"checkout_error_out_of_stock_partial" = "Sorry, we have removed %s\\nunfortunately it was limited stock only.";
+"common_crash_popup_title_android" = "Process Failed!";
+"accessibility_common_share" = "Share";
+"search_screen_results_count_one" = "1 result";
+"search_screen_results_count_two" = "2 result";
+"search_screen_results_count_less_than_10" = "%d results";
+"search_screen_results_count_greater_than_10" = "%d results";
+
+/*Fuzzy*/
+"checkout_order_summary_error_invalid_payment_body_f1" = "Sorry, we weren\\'t able to process your payment. To resolve this issue, please check that your card details are correct, and change your payment details if necessary. If that\\'s all in order, contact our Customer Service team on %s";
+"checkout_order_summary_error_invalid_payment_title" = "Update payment";
+"checkout_order_summary_error_insufficient_funds_title" = "Please select another payment method";
+"checkout_address_error_out_of_area_f1" = "We\\'re sorry, but we don\\'t deliver to the area/address you\\'ve just added. Please enter another address or contact the Customer Service team at %s";
+"search_screen_results_count_zero" = "No results found";
+
+/*Fuzzy*/
+"checkout_address_add_new_subtitle" = "We deliver straight to your door";
