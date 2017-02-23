@@ -169,29 +169,26 @@ Fuzzy*/
 "address_type_home" = "Home";
 "address_default" = "Default";
 "address_make_default" = "Make default";
-"address_add_new_address_button" = "Add New Address";
+"address_add_new_address_button" = "Add new address";
 "address_add_or_change_button" = "Add or change address";
-"address_edit_address_button" = "Edit Address";
 "address_no_addresses_label" = "No address added yet";
 "address_delivery_type_personal_label" = "Personal delivery";
 "address_delivery_cost_from_f1" = "From %s";
 "address_components_seperator" = ", ";
 "address_map_current_location_button" = "Current Location";
 "address_map_search_error_title" = "Sorry, we couldn't find that address.";
-"address_map_search_error_subtitle" = "Please try a location name, e.g. JLT, Downtown, Karama, or search for the building name,\ne.g. JBC 3, Tiger building";
+"address_map_search_error_subtitle" = "Please try a location name, e.g. JLT, Downtown, Karama, or search for the building name,\\ne.g. JBC 3, Tiger building";
 "address_map_done" = "Done";
 "address_map_empty_label" = "Where should we deliver to?";
 "address_map_searching_label" = "Searching";
-
-/*Fuzzy*/
-"address_map_location_found_label" = "We have found you!";
+"address_map_location_found_label" = "We found you!";
 "address_form_almost_done_title" = "Almost done!";
 "address_form_almost_done_subtitle" = "We just need you to check your address details and add contact details.";
 "address_form_delivery_address" = "Delivery address";
 "address_form_country" = "Country";
 "address_form_city" = "City";
 "address_form_building" = "Building";
-"address_form_flat_number" = "Apartment Number";
+"address_form_flat_number" = "Flat number";
 "address_form_floor_number" = "Floor Number";
 "address_form_area" = "Area";
 "address_form_street" = "Street";
@@ -200,19 +197,14 @@ Fuzzy*/
 "address_form_business_name" = "Business name";
 "address_form_contact_details" = "Contact details";
 "address_form_name" = "Name";
-"address_form_phone" = "Phone";
+"address_form_phone" = "Mobile";
 "address_checkout_delivery_address_label" = "Select your delivery method";
-"checkout_address_selection_error_cant_deliver_to_selected_adress" = "Can not deliver to the selected Address";
-
-/*What does this actually mean to a customer I'm confused?*/
-/*Fuzzy*/
-"checkout_address_selection_error_failed_to_obtain_shipments" = "One of these items is out of stock, please remove the item to continue with check out";
 
 /*Fuzzy*/
 "checkout_leave_alert_question" = "Are you sure you want to exit the checkout?";
 "checkout_order_summary_delivery_option_title" = "Delivery option";
 "checkout_order_summary_price_subtotal" = "Orders subtotal";
-"checkout_order_summary_price_shipping" = "Delivery total";
+"checkout_order_summary_price_shipping" = "Shipping total";
 "checkout_order_summary_price_on_delivery" = "Pay on delivery";
 "checkout_order_summary_shipping_price_unknown" = "Unknown";
 "checkout_order_summary_selected_address_title" = "Ship to";
@@ -222,9 +214,7 @@ Fuzzy*/
 "checkout_order_summary_review_title" = "Review";
 "checkout_order_summary_review_subtitle" = "Please scroll down to place your order";
 "checkout_order_summary_place_order_button" = "Place Order";
-
-/*Fuzzy*/
-"checkout_order_summary_error_not_enough_cash" = "Sorry, you don't have enough credit on your wallet to proceed";
+"checkout_order_summary_error_not_enough_cash" = "Sorry, you have insufficient credit on your wallet to pay for this order, please change your payment method.";
 
 /*need approval*/
 /*Fuzzy*/
@@ -306,7 +296,7 @@ Fuzzy*/
 
 /*Is this message actually "we weren't able to deliver your shipment" ?*/
 /*Fuzzy*/
-"order_details_shipment_status_delivery_failed_f1" = "Delivery attempted\nPlease contact us at %s";
+"order_details_shipment_status_delivery_failed_f1" = "Delivery attempted\\nPlease contact us at %s";
 
 /*Fuzzy*/
 "order_details_shipment_status_order_placed" = "Order placed";
@@ -366,7 +356,7 @@ Fuzzy*/
 "returns_screen_returns_pickup_details_address_selection_placeholder" = "Select address";
 "returns_screen_returns_pickup_details_date_selection_placeholder" = "Select date";
 "returns_screen_returns_pickup_details_time_slot_selection_placeholder" = "Select time";
-"returns_screen_thank_you_page_title" = "Your order has been placed!\nYour order number is:";
+"returns_screen_thank_you_page_title" = "Your order has been placed!\\nYour order number is:";
 "returns_screen_thank_you_page_continue_shopping_button" = "Continue shopping";
 
 /*MARK: My Account*/
@@ -461,20 +451,19 @@ Fuzzy*/
 "product_details_variant_picker_variant_out_of_stock_f1" = "%s (sold out)";
 "wallet_screen_transaction_id_f1_android" = "Transaction ID %s";
 "login_signup_email_address" = "Email";
-"login_signup_place_card" = "Enter your card details";
 
 /*Fuzzy*/
-"login_signup_enter_otp" = "Enter the code you received";
+"login_signup_enter_otp" = "Enter the code you received below";
 "common_done" = "Done";
 "common_coming_soon" = "Coming Soon";
 "common_picker_select_title_f1" = "Select %s";
 "wallet_screen_transaction_id" = "Transaction ID";
-"wallet_screen_cards_empty_state" = "You currently have no saved cards";
-"wallet_screen_transactions_empty_state" = "You haven't made any transactions yet.";
+"wallet_screen_cards_empty_state" = "You have no saved cards";
+"wallet_screen_transactions_empty_state" = "You have no recorded transactions";
 "returns_screen_return_id_label_f1" = "Return ID: %s";
 "returns_screen_return_amount_label" = "Return amount:";
 "returns_screen_return_detail_replace_choice_yes" = "Yes, I would like to replace";
-"address_save_button" = "Save";
+"address_save_button" = "Save address";
 
 /*MARK: Checkout*/
 "checkout_address_selection_error_ok_button" = "OK";
@@ -504,10 +493,9 @@ Fuzzy*/
 "order_details_shipment_count_title" = "Total shipments:";
 "order_details_item_count_title" = "Total items:";
 "myorders_order_state_multiple_shipment_delivery" = "Multiple shipment delivery";
-"order_details_shipment_status_expected_to_be_shipped" = "Expected to be\nshipped";
+"order_details_shipment_status_expected_to_be_shipped" = "Expected to be\\nshipped";
 
 /*MARK: Misc*/
-"calendar_event_title_f1" = "noon : %s";
 "calendar_access_error_message" = "To save schedule in your Calendar, we need access to do so. Please provide access from within Settings Application";
 "order_details_cancel_aramex_info_message" = "You can return items once they are delivered or reject your order on delivery";
 "login_signup_use_your_email" = "Use email address";
@@ -593,7 +581,7 @@ Fuzzy*/
 "cart_icon_badge_max_value" = "99+";
 
 /*Fuzzy*/
-"login_signup_otp_text_sent_message_f1" = "We have sent you an OTP code on %@, please enter it here to verify:";
+"login_signup_otp_text_sent_message_f1" = "We have sent you an OTP code on %s, please enter it here to verify:";
 "navigation_drawer_open_description_android" = "Open drawer";
 "navigation_drawer_close_description_android" = "Close drawer";
 "common_close" = "Close";
@@ -620,7 +608,7 @@ Fuzzy*/
 "common_error_request_5xx_message" = "Please try after some time";
 "common_error_request_4xx_title" = "Something went wrong.";
 "common_error_request_4xx_message" = "Please try after some time.";
-"common_error_empty_textfield" = "Cannot be empty";
+"common_error_empty_textfield" = "This field is required";
 "common_error_empty_password" = "Must be at least 6 characters long";
 "common_error_invalid_email_address" = "Email address must be valid";
 "common_error_too_long_username" = "Name is too long";
@@ -636,18 +624,20 @@ Fuzzy*/
 "wallet_credit_transaction_cell_type_cash_label" = "Wallet";
 
 /*MARK: Settings*/
-"settings_screen_title_legal_label" = "Legal";
+"settings_screen_title_legal_label" = "Legal links";
 "settings_screen_privacy_policy_label" = "Privacy policy";
 "settings_screen_terms_of_use_label" = "Terms of use";
 "settings_screen_terms_of_sale_label" = "Terms of sale";
 
 /*MARK: Permission:*/
-"permission_location_message" = "noon requires location access to improve your delivery experiance. Please grant access in settings";
+"permission_location_message" = "noon requires location access to improve your delivery experience. Please grant access in settings";
 "permission_location_title" = "Location Required";
 "search_bar_placeholder_what_looking_for_label" = "What are you looking for today?";
 "search_bar_placeholder_search_in_category_f1" = "Search in %s";
-"common_copyright" = "Copyright (c) 2017 noon.";
-"returns_screen_selected_pickup_time_between" = "Between %1$s and %2$s";
+"common_copyright" = "Copyright © 2017 noon";
+
+/*Fuzzy*/
+"returns_screen_selected_pickup_time_between_f2" = "Between %1$s and %2$s";
 "checkout_error_out_of_stock_partial" = "Sorry, we have removed %s\\nunfortunately it was limited stock only.";
 "common_crash_popup_title_android" = "Process Failed!";
 "accessibility_common_share" = "Share";
@@ -665,3 +655,108 @@ Fuzzy*/
 
 /*Fuzzy*/
 "checkout_address_add_new_subtitle" = "We deliver straight to your door";
+"common_undo" = "Undo";
+"accessbility_navigation_cart" = "Cart";
+"checkout_address_selection_title" = "My addresses";
+"checkout_order_summary_continue_place_order" = "Continue & Place order";
+"checkout_order_summary_view_cart" = "View basket";
+"common_please_update_your_app" = "Please update your app to the latest version";
+"checkout_payment_add_new_card_title" = "Add new card";
+"search_screen_filter_price_to" = "To";
+"search_screen_filter_price_from" = "From";
+"order_details_buy_again_button" = "Buy it again";
+"product_details_out_of_stock" = "Unfortunately, this item is out of stock.";
+"address_add_address_cancel_error" = "Do you want to cancel adding/editing current address?";
+"home_order_tracking_items_one" = "item";
+"home_order_tracking_items_less_than_10" = "items";
+"home_order_tracking_items_greater_than_10" = "items";
+"returns_screen_item_time_remaining_label_f1" = "Time remaining (%s left)";
+"time_remaining_days_singular_f1" = "%d day";
+"time_remaining_days_plural_f1" = "%d days";
+"menu_item_language" = "العربية";
+"checkout_order_summary_cvv_hint" = "Please enter the 3-digit CVV code, which you can find on the back of your card";
+"checkout_payment_add_new_card_required_expiry_month" = "Please select expiry month";
+"checkout_payment_add_new_card_required_expiry_year" = "Please select expiry year";
+"checkout_generic_error" = "Checkout can\\'t be done. Please try again later.";
+"search_screen_autocomplete_category_f1" = "in %s";
+"time_remaining_months_singular_f1" = "%@ month";
+"time_remaining_months_plural_f1" = "%@ months";
+"time_remaining_hours_singular_f1" = "%@ hour";
+"time_remaining_hours_plural_f1" = "%@ hours";
+"time_remaining_minutes_singular_f1" = "%@ minute";
+"time_remaining_minutes_plural_f1" = "%@ minutes";
+"time_remaining_less_than_minute" = "Less than minute";
+"common_calendar_event_title_f1" = "noon: %s";
+"returns_screen_add_to_calendar_event_title_f1" = "return due for pickup %s";
+"checkout_thankyou_view_order_status_button" = "View order status";
+"checkout_thankyou_shipment_delivered_label" = "It will be delivered";
+"change_language_loading_message_android" = "Updating your language preference";
+"video_player_error_cannot_play" = "Cannot play that video. Please try again later.";
+"coming_soon_download_invoice_title" = "Download invoice";
+"coming_soon_returns_and_exchange" = "Returns & exchanges";
+"coming_soon_cancellation" = "Cancellation";
+"returns_screen_thankyou_message_mail" = "Thank You! Your return order has been created. An email confirmation has been sent to you.";
+"returns_screen_thankyou_message_sms" = "Thank You! Your return order has been created. An sms confirmation has been sent to you.";
+"order_details_download_invoice_no_pdf_application" = "No PDF reader application found.";
+"address_toast_added_android" = "Address added successfully!";
+"address_toast_add_error_android" = "Sorry, there were an issue adding your address, please try again";
+"address_toast_edited_android" = "Address edited successfully!";
+"address_toast_edit_error_android" = "Address edit error. Please try again.";
+"address_map_cannot_find_location_android" = "Cannot find that location. Please try again.";
+"address_map_couldnt_pick_that_place_android" = "Couldn\\'t pick that place. Please try again.";
+"address_add_new_address_subtitle" = "We deliver straight to your door";
+
+/*Below three strings are used for available delivery option dates
+ example: Delivered today, 20 Feb
+ example: Delivered tomorrow, 21 Feb
+ example: Delivered by Wednesday, 22 Feb*/
+"checkout_order_summary_delivery_by_today_f1" = "Delivered today, %@";
+"checkout_order_summary_delivery_by_tomorrow_f1" = "Delivered tomorrow, %@";
+"checkout_order_summary_delivery_by_f1" = "Delivered by %@";
+"checkout_address_my_addresses" = "My addresses";
+"common_toast_added_to_cart_android" = "Added to Cart!";
+"common_toast_removed_from_cart_android" = "Removed from cart!";
+"common_toast_increased_in_cart_android" = "Added one more item to cart!";
+"login_signup_toast_logged_in_successfully" = "Logged in successfully!";
+"common_error_request_failed" = "We had a problem with our server, Please try again.";
+"common_error_request_timeout" = "No internet connection.";
+"address_map_error_should_be_in_uae" = "Address should be in United Arab Emirates";
+"address_map_error_geolocation_failure_android" = "Cannot find address for this location.";
+"search_screen_no_filters_found_android" = "No filters found.";
+"checkout_payment_invalid_card_details" = "Invalid card details";
+"common_try_again_android" = "Try again";
+"common_error_loading_android" = "There was an error during loading. Please try again.";
+"returns_screen_empty_state_title_label" = "You don't have any item for return";
+"common_select_all" = "Select all";
+"login_signup_user_your_mobile_number_instead" = "I'd like to login with my mobile";
+"login_signup_place_card" = "Enter your card details";
+"login_signup_resend" = "Resend";
+"login_signup_have_sent_otp " = "We sent you a one-time password on %s to verify this number";
+"login_signup_mobile_instead" = "I'd like to login with my mobile instead";
+"login_signup_email_instead" = "I'd like to login with my email instead";
+"login_signup_mobile_number_placeholder" = "Mobile e.g. 0512345678 or +971512345678";
+"login_sigup_error_invalid_email_mobile_number" = "Phone number or email must be valid";
+"common_notice" = "Notice!";
+"returns_screen_empty_state_need_help_label" = "Do you need help?";
+"returns_screen_empty_state_chat_with_us" = "Chat with us";
+"returns_screen_return_detail_return_option_placeholder" = "Please select your return option";
+"menu_item_recommendations_title_label" = "Recommendations";
+"menu_item_wishlist_title_label" = "Wishlist";
+"menu_item_your_wallet_title_label" = "Your Wallet";
+"menu_item_contact_us_title_label" = "Call us";
+"menu_item_one_click_label" = "One-Click payment";
+"menu_item_language_label" = "Language";
+"menu_item_help_label" = "Help";
+"checkout_address_selection_error_cant_deliver_to_selected_adress" = "Can not deliver to the selected Address";
+"checkout_address_selection_error_failed_to_obtain_shipments" = "Failed to obtain shipments";
+
+/*Below two strings are used for selected delivery option date
+ example: today, 20 Feb
+ example: tomorrow, 21 Feb*/
+"checkout_order_summary_selected_delivery_by_today_f1" = "today, %@";
+"checkout_order_summary_selected_delivery_by_tomorrow_f1" = "tomorrow, %@";
+"checkout_order_summary_delivery_options_free" = "Free";
+"checkout_error_out_of_stock" = "Sorry, we’ve run out of stock";
+"order_details_shipment_status_shipping" = "Shipping";
+"search_screen_suggested_results_header_see_all_button_f1" = "See all %@ results";
+"language.preferred.user.language.dismiss" = "تغيير اللغة";
