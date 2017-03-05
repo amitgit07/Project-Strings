@@ -38,7 +38,7 @@ Fuzzy*/
 
 /*REVIEWED BY RB*/
 "login_signup_login_with_social_networks" = "تسجيل الدخول من خلال";
-"login_signup_verification_enter_otp" = "أدخل كلمة السر المؤلفة من 4 أرقام (ذات الاستخدام الواحد) أدناه";
+"login_signup_verification_enter_otp" = "أدخل كلمة السر المؤلفة من 6 أرقام (ذات الاستخدام الواحد) أدناه";
 
 /*REVIEWED BY RB*/
 "login_signup_email_or_mobile" = "رقم الهاتف أو البريد الإلكتروني";
@@ -108,6 +108,9 @@ Fuzzy*/
 "home_allcategory_sports" = "الرياضات والنشاطات الخارجية";
 "home_allcategory_books" = "الكتب والأفلام";
 "home_allcategory_toys" = "الألعاب";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Home*/
 "home_allcategory_baby" = "منتجات الأطفال";
 "home_allcategory_home" = "المنزل والحديقة";
 "home_cart_component_view_cart_button" = "الاطلاع على عربة التسوق (%d)";
@@ -122,6 +125,9 @@ Fuzzy*/
 "menu_item_shop_by_category_title_label" = "تسوّق بحسب الفئة";
 "menu_item_todays_deals_title_label" = "عروض اليوم";
 "menu_item_returns_title_label" = "الإرجاع والاستبدال";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Menu*/
 "menu_item_about_next_title_label" = "عن نون والسياسات";
 "menu_item_my_orders_label" = "طلباتي";
 "menu_item_invite_friends_label" = "قم بدعوة الأصدقاء";
@@ -200,7 +206,7 @@ Fuzzy*/
 "checkout_order_summary_error_not_enough_cash" = "عذراً، ليس لديك رصيد كافٍ في محفظتك لدفع ثمن هذا الطلب، يُرجى منك تغيير طريقة الدفع.";
 
 /*need approval*/
-"checkout_order_summary_copyright_ios" = "(Ar)By placing your order you agree to our terms and conditions, privacy policy and returns policy and consent to some of your data being stored by noon which may be used to make future shopping experiences better for you.";
+"checkout_order_summary_copyright_ios" = "بإتمامك طلبك، تكون قد وافقت على أحكام البيع وسياسة الخصوصية وسياسات الإرجاع وتوافق على قيام نون بحفظ بياناتك لإمكانية استخدامها بهدف تحسين تجربتك الشرائية في المستقبل.";
 "checkout_order_summary_copyright_terms_conditions_ios" = "شروط الاستخدام";
 "checkout_order_summary_copyright_privacy_policy_ios" = "سياسة الخصوصية";
 "checkout_payment_title" = "الدفع";
@@ -211,7 +217,7 @@ Fuzzy*/
 "checkout_payment_name_on_card_label" = "الاسم على البطاقة";
 "checkout_payment_name_on_card_placeholder" = "اللقب";
 "checkout_payment_card_number_label" = "رقم البطاقة";
-"checkout_payment_card_number_placeholder" = "(Ar)xxxx-xxxx-xxxx-xxxx";
+"checkout_payment_card_number_placeholder" = "xxxx-xxxx-xxxx-xxxx";
 "checkout_payment_card_expiry_date_label" = "تاريخ انتهاء الصلاحية";
 "checkout_payment_card_expiry_date_year_placeholder" = "السنة";
 "checkout_payment_card_expiry_date_month_placeholder" = "الشهر";
@@ -237,15 +243,18 @@ Fuzzy*/
 "order_details_header_single_item" = "(1 منتج)";
 "order_details_shipment_shipment_of_word" = "من";
 "order_details_shipment_tracking_id" = "رقم التتبع: #";
-"order_details_shipment_cell_no_delivery_available" = "نحن نحضر طلبك. سنقوم بتحديث المعلومات الخاصة بالتوصيل ";
+"order_details_shipment_cell_no_delivery_available" = "يتم تحضير طلبك وسنقوم بتحديث المعلومات الخاصة بالتوصيل";
 "myorders_no_placed_orders_title" = "لم تقم بطلب أي منتج بعد";
 "myorders_start_shopping" = "ابدأ بالتسوق";
 "myorders_order_date_title" = "تاريخ الطلب:";
 "myorders_shipment_count_title" = "إجمالي الشحنات :";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Myorders*/
 "myorders_items_count_title" = "إجمالي المنتجات:";
 "myorders_total_price_title" = "القيمة الإجمالية:";
 "myorders_ordercell_orderid_f1" = "رقم الطلب #%s";
-"myorders_more_images_counter_f1" = "(Ar)+%@";
+"myorders_more_images_counter_f1" = "+%@";
 "myorders_order_state_delivered" = "تم التوصيل في ";
 "myorders_order_state_expected_delivery" = "تاريخ التوصيل المتوقّع";
 "myorders_order_state_cancelled" = "تم الإلغاء";
@@ -265,26 +274,28 @@ Fuzzy*/
 "order_details_shipment_track_shipment_title" = "أين شحنتي؟";
 "order_details_shipment_download_invoice" = "تنزيل الفاتورة";
 "order_details_shipment_return_exchange" = "الإرجاع والاستبدال";
-"order_details_shipment_shipping_title" = "التوصيل: خطوة ";
+
+/*Fuzzy*/
+"order_details_shipment_shipping_title_f2" = "التوصيل: خطوة ";
 "order_details_shipment_status_delivery_failed_f1" = "قمنا بمحاولة التوصيل\\nيرجى الاتصال بنا على %s";
 "order_details_shipment_status_order_placed" = "تم تسجيل الطلبية";
 "order_details_shipment_status_shipped" = "تم شحن الطلبية";
 "order_details_shipment_status_expected_delivery" = "موعد التوصيل المتوقع";
 "order_details_shipment_status_delivered" = "تم التوصيل ";
-"order_details_shipment_status_cancel_requested" = "طلب الإلغاء";
+"order_details_shipment_status_cancel_requested" = "تم طلب الإلغاء";
 "order_details_shipment_status_cancelled" = "تم الإلغاء";
 "order_details_shipment_cancel_shipment" = "إلغاء عملية الشحن";
 "order_details_shipment_cancel_items" = "إلغاء المشتريات";
 "order_details_shipment_cancel_order" = "إلغاء الطلب";
 "order_details_shipment_aramex_how_to_cancel" = "كيف أُلغي طلبي؟";
-"checkout_order_summary_copyright_android" = "";
+"checkout_order_summary_copyright_android" = "عند إتمام طلبك، تكون قد وافقت على الشروط والأحكام الخاصة بنا وسياسة الخصوصية وسياسات الإرجاع وتكون أيضاً  قد وافقت على قيام نون بحفظ بعض معلوماتك لاستخدامها بهدف تحسين تجربتك الشرائية معنا.";
 "checkout_payment_add_card_error_incorrect_cvv" = "رقم CVV غير صالح";
 "checkout_payment_add_card_error_incorrect_card_number" = "رقم البطاقة غير صحيح";
 "checkout_payment_add_card_error_incorrect_expiry_date" = "تاريخ انتهاء صلاحية غير صالح";
 
 /*MARK: Wallet*/
 "wallet_screen_tab_bar_transactions" = "عمليات الدفع";
-"wallet_screen_tab_bar_cards" = "البطاقات المحفوظة";
+"wallet_screen_tab_bar_cards" = "البطاقات المسجلة";
 "wallet_screen_transaction_status_completed" = "استُكملت";
 "wallet_screen_transaction_status_pending" = "قيد الانتظار";
 
@@ -302,6 +313,9 @@ Fuzzy*/
 "returns_screen_calendar_not_added_label" = "عذراً، لم نتمكن من إضافة الحدث إلى تقويمك الخاص";
 "returns_screen_return_date_label" = "تاريخ الإرجاع:";
 "returns_screen_return_id_label" = "رقم الإرجاع";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Return*/
 "return_screen_return_amount_label" = "القيمة المرتجعة";
 "returns_screen_return_reason_label" = "سبب الإرجاع";
 "returns_screen_return_reason_none_label" = "لا يُطبق";
@@ -323,8 +337,11 @@ Fuzzy*/
 
 /*MARK: My Account*/
 "my_account_menu_orders" = "جميع الطلبات";
-"my_account_menu_wallet" = "محفظتك";
+"my_account_menu_wallet" = "محفظتي";
 "my_account_menu_returns" = "الإرجاع والاستبدال";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: My*/
 "my_account_menu_address_book" = "دفتر العناوين";
 "my_account_menu_profile" = "معلوماتي الشخصية";
 
@@ -358,13 +375,16 @@ Fuzzy*/
 "search_screen_header_filter_button_with_number_f1" = "(%d) تصفية";
 "search_screen_recent_searches_label" = "آخر مصطلحات البحث";
 "search_screen_popular_searches_label" = "مصطلحات البحث الشائعة";
-"search_screen_sort_popup_title" = "التصنيف حسب";
+"search_screen_sort_popup_title" = "التصنيف بحسب";
 "search_screen_filter_screen_category_label" = "الفئات";
 "search_screen_filter_screen_apply_button" = "تم";
 "search_screen_filter_screen_filter_button" = "تصفية";
 "search_screen_filter_screen_clear_button" = "إلغاء";
 "search_screen_filter_screen_price_label" = "السعر";
 "navigation_placeholder_what_looking_for_label" = "عمّا تبحث اليوم؟";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Navigation*/
 "navigation_placeholder_search_in_category_f1" = "ابحث في %s ";
 "search_screen_related_searches_title" = "مصطلحات البحث ذات الصلة";
 "login_signup_logout_success_message" = "لقد تم تسجيل الخروج";
@@ -402,6 +422,9 @@ Fuzzy*/
 "product_details_delivery_location_select_district" = "اختر المنطقة";
 "product_details_delivery_location_delivery_options_title" = "يمكنك اختيار طريقة التوصيل عند إتمام عملية الشراء";
 "product_details_delivery_location_delivery_options_free" = "مجاناً";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Product*/
 "product_details_about_this_product_title" = "معلومات عن المنتج";
 "product_details_variant_picker_variant_out_of_stock_f1" = "نفدت الكمية من %s";
 "wallet_screen_transaction_id_f1_android" = "رقم المعاملة %s";
@@ -411,11 +434,11 @@ Fuzzy*/
 "common_coming_soon" = "ترقّبونا";
 "common_picker_select_title_f1" = "اختر %s";
 "wallet_screen_transaction_id" = "رقم المعاملة";
-"wallet_screen_cards_empty_state" = "لا يوجد أي بطاقات محفوظة بهذا الاسم";
+"wallet_screen_cards_empty_state" = "لا يوجد بطاقات مسجلة";
 "wallet_screen_transactions_empty_state" = "لا يوجد أي عمليات مسجلة";
 "returns_screen_return_id_label_f1" = "رقم الإرجاع: %s ";
 "returns_screen_return_amount_label" = "القيمة المرتجعة";
-"returns_screen_return_detail_replace_choice_yes" = "(AR)Yes, I would like to replace";
+"returns_screen_return_detail_replace_choice_yes" = "نعم، أود استبداله";
 "address_save_button" = "حفظ العنوان";
 
 /*MARK: Checkout*/
@@ -444,7 +467,7 @@ Fuzzy*/
 "order_details_shipment_count_title" = "إجمالي الشحنات: ";
 "order_details_item_count_title" = "إجمالي المنتجات:";
 "myorders_order_state_multiple_shipment_delivery" = "توصيل لعدة طلبات";
-"order_details_shipment_status_expected_to_be_shipped" = "يُتوقع التوصيل";
+"order_details_shipment_status_expected_to_be_shipped" = "موعد الشحن المتوقع";
 
 /*MARK: Misc*/
 "calendar_access_error_message" = "لحفظ التاريخ في تقويمك، يرجى تزويدنا بحق الدخول وذلك من خلال إعدادات التطبيق";
@@ -497,8 +520,8 @@ Fuzzy*/
 /*Fuzzy*/
 "home_order_tracking_view_all" = "الاطلاع على جميع الطلبات >";
 "product_details_missing_select_parameter_error_message" = "الرجاء اختيار %s للاستمرار";
-"login_signup_forgot_password_account_changed_title" = "Has your mobile number or email address changed?";
-"login_signup_forgot_password_account_changed_subtitle" = "No problem, Contact Customer Service can help you access your account.";
+"login_signup_forgot_password_account_changed_title" = "هل تغير بريدك الإلكتروني أو رقم هاتفك المتحرك؟";
+"login_signup_forgot_password_account_changed_subtitle" = "إن كنت لم تعد تستخدم البريد الإلكتروني أو رقم الهاتف المسجلين في حسابك الخاص في نون، تواصل مع فريق خدمة العملاء ليساعدك أحدهم على الدخول إلى حسابك.";
 "order_details_shipments_deliver_to_address_delimiter" = " - ";
 "order_details_shipments_aramex_cancel_info" = "يمكنك إرجاع المنتجات بعد توصيلها أو رفض استلامها عند التوصيل";
 "order_details_cancel_select_reason_button" = "اختر السبب";
@@ -525,7 +548,7 @@ Fuzzy*/
 "login_signup_error_invalid_mobile_number" = "إن رقم الهاتف المتحرك الذي أدخلته ليس رقماً صالحاً في الإمارات";
 "login_signup_error_password_length" = "يجب أن تكون كلمة السر مؤلفة من 6 أحرف أو أرقام على الأقل";
 "login_signup_error_enter_name" = "أدخل اسمك";
-"login_signup_otp_invalid_code" = "";
+"login_signup_otp_invalid_code" = "إن رمز السر لمرة واحدة OTP غير صالح";
 
 /*MARK: Category*/
 "category_screen_no_item_label" = "لم نتمكن من عرض هذه الفئات، يرجى المحاولة لاحقاً";
@@ -553,11 +576,17 @@ Fuzzy*/
 "wallet_credit_card_cell_make_default_label" = "البطاقة الافتراضية";
 "wallet_credit_card_cell_expiry_label" = "صالحة لغاية:";
 "wallet_credit_card_cell_edit_button" = "تعديل";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Wallet*/
 "wallet_credit_card_cell_delete_button" = "حذف";
 "wallet_credit_transaction_cell_type_cash_label" = "محفظتي";
 
 /*MARK: Settings*/
 "settings_screen_title_legal_label" = "الروابط القانونية";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Settings*/
 "settings_screen_privacy_policy_label" = "سياسة الخصوصية";
 "settings_screen_terms_of_use_label" = "شروط الاستخدام";
 "settings_screen_terms_of_sale_label" = "شروط البيع";
@@ -566,25 +595,40 @@ Fuzzy*/
 "permission_location_message" = "ظهر يتطلب الوصول إلى الموقع لتحسين تجربة التسليم. الرجاء منح حق الوصول في إعدادات";
 "permission_location_title" = "الموقع مطلوب";
 "search_bar_placeholder_what_looking_for_label" = "عمّا تبحث اليوم؟";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Search*/
 "search_bar_placeholder_search_in_category_f1" = "البحث في %s ";
 "common_copyright" = "جميع الحقوق محفوظة© 2017. نون";
 "returns_screen_selected_pickup_time_between_f2" = "بين %1$s  و   %2$s ";
 "checkout_error_out_of_stock_partial" = "عذراً، ";
 "common_crash_popup_title_android" = "لم تنجح العملية!";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Accessibility*/
 "accessibility_common_share" = "مشاركة";
 "search_screen_results_count_one" = "نتيجة واحدة";
 "search_screen_results_count_two" = "نتيجتان";
-"search_screen_results_count_less_than_10" = "%d نتيجة";
-"search_screen_results_count_greater_than_10" = "%d نتائج";
+
+/*Fuzzy*/
+"search_screen_results_count_less_than_10_f1" = "%d نتيجة";
+
+/*Fuzzy*/
+"search_screen_results_count_greater_than_10_f1" = "%d نتائج";
 "checkout_order_summary_error_invalid_payment_body_f1" = "نعتذر، لم نتمكن من إتمام عملية الدفع، يرجى التأكد من إدخال المعلومات لصحيحة لبطاقة الائتمان أو اختيار طريقة دفع أخرى، وللمزيد من المساعدة يرجى التواصل مع خدمة العملاء لدينا على الرقم: %s";
 "checkout_order_summary_error_invalid_payment_title" = "تحديث طريقة الدفع";
 "checkout_order_summary_error_insufficient_funds_title" = "اختَر طريقة دفع أخرى";
 "checkout_address_error_out_of_area_f1" = "نعتذر، لا نقوم بالتوصيل إلى العنوان الذي أدخلته، يرجى إدخال عنوان اّخر أو الإتصال بخدمة العملاء لدينا على الرقم %s";
 "search_screen_results_count_zero" = "لم يتم العثور على نتائج";
 
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Checkout*/
 /*Fuzzy*/
 "checkout_address_add_new_subtitle" = "نوصّل طلبك إليك";
 "common_undo" = "إلغاء";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Accessbility*/
 "accessbility_navigation_cart" = "عربة التسوق";
 "checkout_address_selection_title" = "عناويني";
 "checkout_order_summary_continue_place_order" = "الاستمرار وإتمام الطلب";
@@ -593,17 +637,26 @@ Fuzzy*/
 "checkout_payment_add_new_card_title" = "إضافة بطاقة جديدة";
 "search_screen_filter_price_to" = "إلى";
 "search_screen_filter_price_from" = "من";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Order*/
 "order_details_buy_again_button" = "الشراء مرة أخرى";
 "product_details_out_of_stock" = "عذراً، نفدت كمية هذا المنتج";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Address*/
 "address_add_address_cancel_error" = "هل تريد إلغاء أو إضافة أو تعديل العنوان الحالي";
 "home_order_tracking_items_one" = "منتج";
 "home_order_tracking_items_less_than_10" = "منتجات";
 "home_order_tracking_items_greater_than_10" = "منتج";
 "returns_screen_item_time_remaining_label_f1" = "الوقت المتبقي";
 "time_remaining_days_singular_f1" = "%d  يوم";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Time*/
 "time_remaining_days_plural_f1" = "%d أيام";
-"menu_item_language" = "";
-"checkout_order_summary_cvv_hint" = "";
+"menu_item_language" = "English";
+"checkout_order_summary_cvv_hint" = "يُرجى إدخال رقم CVV المؤلف من 3 أرقام والمذكور على ظهر البطاقة";
 "checkout_payment_add_new_card_required_expiry_month" = "يرجى اختيار شهر انتهاء الصلاحية";
 "checkout_payment_add_new_card_required_expiry_year" = "يرجى اختيار سنة انتهاء الصلاحية";
 "checkout_generic_error" = "لم تكتمل عملية إتمام الشراء. يرجى المحاولة مجدداً";
@@ -615,14 +668,26 @@ Fuzzy*/
 "time_remaining_minutes_singular_f1" = "%@ دقيقة";
 "time_remaining_minutes_plural_f1" = "%@ دقائق";
 "time_remaining_less_than_minute" = "أقل من دقيقة";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Common*/
 "common_calendar_event_title_f1" = "نون: %s ";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Returns*/
 "returns_screen_add_to_calendar_event_title_f1" = "تاريخ استلام المنتجات المرتجعة %s ";
 "checkout_thankyou_view_order_status_button" = "لمتابعة حالة الطلب";
 "checkout_thankyou_shipment_delivered_label" = "سيتم التوصيل";
 "change_language_loading_message_android" = "يتم تحديث اللغة المفضلة";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Video*/
 "video_player_error_cannot_play" = "لا يمكن عرض هذا الفيديو. يرجى المحاولة مجدداً ";
 "coming_soon_download_invoice_title" = "تحميل الفاتورة";
 "coming_soon_returns_and_exchange" = "الإرجاع والاستبدال";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Coming*/
 "coming_soon_cancellation" = "طلب الإلغاء";
 "returns_screen_thankyou_message_mail" = "شكرًا لك! تم إنشاء طلب الإرجاع، وستصلك رسالة تأكيد بالبريد الإلكتروني.";
 "returns_screen_thankyou_message_sms" = "شكراً، ";
@@ -656,36 +721,96 @@ Fuzzy*/
 "common_try_again_android" = "حاول مرة أخرى";
 "common_error_loading_android" = "حدث خطأ ما خلال التحميل. يرجى المحاولة لاحقاً";
 "returns_screen_empty_state_title_label" = "لا يوجد أي منتج للإرجاع";
-"common_select_all" = "";
+"common_select_all" = "اختيار الكل";
 "login_signup_user_your_mobile_number_instead" = "أود الدخول بواسطة هاتفي المتحرك";
 "login_signup_place_card" = "إدخال رقم البطاقة";
 "login_signup_resend" = "إعادة إرسال";
-"login_signup_have_sent_otp " = "أرسلنا لك كلمة سر ذات استخدام واحد على %s للتحقق من هذا الرقم";
+
+/*Fuzzy*/
+"login_signup_have_sent_otp" = "أرسلنا لك كلمة سر ذات استخدام واحد على %s للتحقق من هذا الرقم";
 "login_signup_mobile_instead" = "الدخول من خلال رقم الهاتف";
 "login_signup_email_instead" = "الدخول من خلال عنوان البريد الإلكتروني";
 "login_signup_mobile_number_placeholder" = "رقم الهاتف (050 1234567)";
 "login_sigup_error_invalid_email_mobile_number" = "رقم الهاتف أو الإيمايل يجب أن يكون صحيحا";
 "common_notice" = "إشعار!";
-"returns_screen_empty_state_need_help_label" = "(AR)Do you need help?";
-"returns_screen_empty_state_chat_with_us" = "(AR)Chat with us";
+
+/*https://drive.google.com/open?id=0B2mWrSwH3cesVHNubnVSNVNkOHM*/
+"returns_screen_empty_state_need_help_label" = "";
+
+/*https://drive.google.com/open?id=0B2mWrSwH3cesb1JmaWlHcVlBRUE*/
+"returns_screen_empty_state_chat_with_us" = "تواصل معنا";
 "returns_screen_return_detail_return_option_placeholder" = "Please select your return option";
 "menu_item_recommendations_title_label" = "مقترحاتك";
 "menu_item_wishlist_title_label" = "قائمتي المفضلة";
-"menu_item_your_wallet_title_label" = "محفظتك";
+"menu_item_your_wallet_title_label" = "محفظتي";
 "menu_item_contact_us_title_label" = "خدمةالزبائن";
 "menu_item_one_click_label" = "ضغطة زر واحدة";
 "menu_item_language_label" = "اللغة";
-"menu_item_help_label" = "(AR)Help";
-"checkout_address_selection_error_cant_deliver_to_selected_adress" = "(Ar)Can not deliver to the selected Address";
-"checkout_address_selection_error_failed_to_obtain_shipments" = "(Ar)Failed to obtain shipments";
+"menu_item_help_label" = "المساعدة";
+"checkout_address_selection_error_cant_deliver_to_selected_adress" = "التوصيل إلى العنوان الذي تم اختياره غير متاح";
+"checkout_address_selection_error_failed_to_obtain_shipments" = "";
 
 /*Below two strings are used for selected delivery option date
  example: today, 20 Feb
  example: tomorrow, 21 Feb*/
-"checkout_order_summary_selected_delivery_by_today_f1" = "(Ar)today, %@";
-"checkout_order_summary_selected_delivery_by_tomorrow_f1" = "(Ar)tomorrow, %@";
-"checkout_order_summary_delivery_options_free" = "(Ar)Free";
-"checkout_error_out_of_stock" = "(Ar)Sorry, we’ve run out of stock";
-"order_details_shipment_status_shipping" = "(AR)Shipping";
+"checkout_order_summary_selected_delivery_by_today_f1" = "اليوم، %@";
+"checkout_order_summary_selected_delivery_by_tomorrow_f1" = "غداً، %@";
+"checkout_order_summary_delivery_options_free" = "مجاناً ";
+"checkout_error_out_of_stock" = "عذراً لقد نفدت الكمية";
+"order_details_shipment_status_shipping" = "قيد الشحن";
 "search_screen_suggested_results_header_see_all_button_f1" = "عرض جميع النتائج ال %@";
 "language.preferred.user.language.dismiss" = "";
+
+/*Title of event that will go to user calendar for returned items*/
+"returns_screen_thankyou_add_to_calendar_event_title" = "";
+
+/*Message shown to user when event was added in calendar for returned items*/
+"returns_screen_thankyou_add_to_calendar_success" = "";
+
+/*Message shown to user when event was added in calendar for returned items*/
+"returns_screen_thankyou_add_to_calendar_failed" = "";
+
+/*Fuzzy*/
+"returns_screen_returns_pickup_details_items_title_f2" = "إرجاع %1$d منتج من أصل %2$d ";
+"return_screen_status_collection_booked" = "تم تأكيد عملية الاستلام";
+"return_screen_status_returned_order" = "تم الإرجاع";
+
+/*Error shown on text field when password confirmation doesn't match  */
+"login_signup_reset_password_error_password_match" = "كلمات السر غير مطابقة";
+
+/*Short message to say user search did not find any results*/
+"address_map_location_found_not_found" = "لا نتائج!";
+"search_screen_filter_selected_categories_f1" = "";
+
+/*Fuzzy*/
+"search_screen_filter_all_category_selection_title_f1" = "كل الفئات %d";
+"search_screen_filter_select_all" = "الكل";
+"search_screen_filter_product_count_f1" = "";
+"search_screen_filter_view_all_categories_f1" = "اطلع على جميع فئات الـ %s";
+
+/*E.g. "Continue to cancel" - agree to cancel selected shipments*/
+"order_details_shipments_cancel_selection_continue_button" = "(Ar)Continue to cancel";
+
+/*CONTEXT: Error shown on text field when password confirmation doesn't match*/
+"login_signup_reset_password_error_password_match" = "";
+"order_details_shipments_cancel_reason_shipment_title_f1" = "إلغاء الشحنة %1$d";
+
+/*Title of the screen when specifying reason for cancelling one of the shipment items*/
+"order_details_shipments_cancel_reason_items_title_f2" = "إلغاء المنتج %1$d من %2$d ";
+
+/*Text above a drop down that becomes visible when cancellation reason is selected*/
+"order_details_shipments_cancel_reason_label" = "يرجى اختيار سبب الإرجاع";
+
+/*Text that is visible when the cancellation reason is not yet selected*/
+"order_details_shipments_cancel_reason_select_placeholder" = "يرجى اختيار سبب الإرجاع";
+
+/*Text of the button during cancellation reason selection that moves us to next shipment item*/
+"order_details_shipments_cancel_reason_next_product_button" = "المنتج التالي";
+
+/*Text of the button during cancellation reason selection that triggers cancellation
+ of all selected items and moves us to cancellation confirmation screen*/
+"order_details_shipments_cancel_reason_do_cancel_button" = "الاستمرار";
+
+/*CONTEXT: https://drive.google.com/open?id=0B2mWrSwH3cesb1JmaWlHcVlBRUE*/
+"returns_screen_empty_state_chat_with_us" = "";
+"forgot_password_customer_service_name" = "خدمة العملاء";
