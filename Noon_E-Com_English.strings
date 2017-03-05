@@ -38,9 +38,7 @@ Fuzzy*/
 
 /*REVIEWED BY RB*/
 "login_signup_login_with_social_networks" = "Sign in with";
-
-/*Fuzzy*/
-"login_signup_verification_enter_otp" = "Enter the 4-digit code you received below";
+"login_signup_verification_enter_otp" = "Enter the 6-digit code you received below";
 
 /*REVIEWED BY RB*/
 "login_signup_email_or_mobile" = "Phone number or email address*";
@@ -50,14 +48,14 @@ Fuzzy*/
 
 /*REVIEWED BY RB*/
 /*Fuzzy*/
-"login_signup_username_password_invalid_or_account_not_verified" = "Please check your email, mobile and password and that you've verified your account via the code you received.";
+"login_signup_username_password_invalid_or_account_not_verified" = "Check your email, mobile and password and that you've verified your account via the code you received.";
 
 /*REVIEWED BY RB*/
 "login_signup_password_required" = "Please enter your password";
 
 /*REVIEWED BY RB*/
 /*Fuzzy*/
-"login_signup_provide_correct_email_mobile" = "Please enter your mobile or email";
+"login_signup_provide_correct_email_mobile" = "Enter your mobile or email";
 
 /*Reviewed by RB*/
 "login_signup_connect" = "Connect";
@@ -81,7 +79,7 @@ Fuzzy*/
 "login_signup_already_registered_account" = "That email/mobile is already registered, please try logging in";
 
 /*Fuzzy*/
-"login_signup_wrong_verification_code" = "We're sorry, that verification code wasn't right, please try again";
+"login_signup_wrong_verification_code" = "Sorry, that verification code wasn't right, try again?";
 "login_signup_password_reset" = "Reset password";
 "login_signup_set_new_password" = "Enter new password";
 "login_signup_new_password" = "Password*";
@@ -96,7 +94,7 @@ Fuzzy*/
 "login_signup_request_reset_password_alert_title" = "Reset password";
 
 /*Fuzzy*/
-"login_signup_request_reset_password_alert_message" = "To reset your password , please enter your mobile or email address";
+"login_signup_request_reset_password_alert_message" = "To reset your password, please enter your mobile or email address";
 "login_signup_user_request_reset_password_alert_confirm_button" = "Reset";
 "login_signup_password_verification_alert_title" = "Verification code";
 "login_signup_password_verification_alert_message" = "We have sent you a verifcation code, please enter it here:";
@@ -121,6 +119,9 @@ Fuzzy*/
 "home_allcategory_sports" = "Sports & Outdoor";
 "home_allcategory_books" = "Books & Media";
 "home_allcategory_toys" = "Toys & Games";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Home*/
 "home_allcategory_baby" = "Baby Product";
 "home_allcategory_home" = "Home & Garden";
 "home_cart_component_view_cart_button" = "View your cart (%d)";
@@ -136,11 +137,13 @@ Fuzzy*/
 "menu_item_todays_deals_title_label" = "Today's Deals";
 "menu_item_returns_title_label" = "Returns & exchange";
 
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Menu*/
 /*Fuzzy*/
-"menu_item_about_next_title_label" = "noon Terms & Policies";
+"menu_item_about_next_title_label" = "Terms & Policies";
 "menu_item_my_orders_label" = "My Orders";
 "menu_item_invite_friends_label" = "Invite your friends";
-"menu_item_chat_label" = "Chat With us";
+"menu_item_chat_label" = "Chat with us";
 "menu_item_customer_service_label" = "Customer Service";
 "menu_item_sign_in_label" = "Register or Sign In";
 
@@ -151,8 +154,10 @@ Fuzzy*/
 "side_menu_welcome_text" = "Hello, %s";
 
 /*MARK: Cart*/
-"cart_items_one" = "one item only in your cart";
-"cart_items_two" = "two items in your cart";
+"cart_items_one" = "There is one item in your cart";
+"cart_items_two" = "There is two items in your cart";
+
+/*where is the single status on this one?*/
 "cart_items_multiple_less_or_equal_10" = "%1$d items in your cart";
 "cart_items_multiple_greater_than_10" = "%1$d items in your cart";
 "cart_summary_total" = "Order total";
@@ -176,7 +181,7 @@ Fuzzy*/
 "address_delivery_cost_from_f1" = "From %s";
 "address_components_seperator" = ", ";
 "address_map_current_location_button" = "Current Location";
-"address_map_search_error_title" = "Sorry, we couldn't find that address.";
+"address_map_search_error_title" = "Sorry, we can't find that address";
 "address_map_search_error_subtitle" = "Please try a location name, e.g. JLT, Downtown, Karama, or search for the building name,\\ne.g. JBC 3, Tiger building";
 "address_map_done" = "Done";
 "address_map_empty_label" = "Where should we deliver to?";
@@ -209,16 +214,15 @@ Fuzzy*/
 "checkout_order_summary_shipping_price_unknown" = "Unknown";
 "checkout_order_summary_selected_address_title" = "Ship to";
 "checkout_order_summary_selected_payment_title" = "Payment";
-"checkout_order_summary_selected_wallet_f1" = "My Wallet %s";
+"checkout_order_summary_selected_wallet_f1" = "My wallet %s";
 "checkout_order_summary_shipment_title_f1" = "Shipment %d";
 "checkout_order_summary_review_title" = "Review";
 "checkout_order_summary_review_subtitle" = "Please scroll down to place your order";
-"checkout_order_summary_place_order_button" = "Place Order";
+"checkout_order_summary_place_order_button" = "Place order";
 "checkout_order_summary_error_not_enough_cash" = "Sorry, you have insufficient credit on your wallet to pay for this order, please change your payment method.";
 
 /*need approval*/
-/*Fuzzy*/
-"checkout_order_summary_copyright_ios" = "By placing your order you agree to our Terms of Sale, Privacy Policy, Returns Policy and consent to your data being stored by noon which may be used to make future shopping experiences better for you.";
+"checkout_order_summary_copyright_ios" = "By placing your order you agree to the noon Terms of Sale, Privacy Policy and Returns Policy, and consent to your data being stored by noon which may be used to make future shopping experiences better for you.";
 
 /*Fuzzy*/
 "checkout_order_summary_copyright_terms_conditions_ios" = "Terms of Use";
@@ -269,6 +273,9 @@ Fuzzy*/
 "myorders_start_shopping" = "Start shopping";
 "myorders_order_date_title" = "Order date:";
 "myorders_shipment_count_title" = "Total shipments:";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Myorders*/
 "myorders_items_count_title" = "Total items:";
 "myorders_total_price_title" = "Total value:";
 "myorders_ordercell_orderid_f1" = "Order ID #%s";
@@ -292,11 +299,13 @@ Fuzzy*/
 "order_details_shipment_track_shipment_title" = "Where's my package?";
 "order_details_shipment_download_invoice" = "Download invoice";
 "order_details_shipment_return_exchange" = "Return & exchange";
-"order_details_shipment_shipping_title" = "Shipping";
+
+/*Fuzzy*/
+"order_details_shipment_shipping_title_f2" = "Shipping %1$d of %2$d";
 
 /*Is this message actually "we weren't able to deliver your shipment" ?*/
 /*Fuzzy*/
-"order_details_shipment_status_delivery_failed_f1" = "Delivery attempted\\nPlease contact us at %s";
+"order_details_shipment_status_delivery_failed_f1" = "We weren't able to deliver your shipment.";
 
 /*Fuzzy*/
 "order_details_shipment_status_order_placed" = "Order placed";
@@ -312,51 +321,76 @@ Fuzzy*/
 "order_details_shipment_cancel_shipment" = "Cancel shipment";
 "order_details_shipment_cancel_items" = "Cancel items";
 "order_details_shipment_cancel_order" = "Cancel order";
-"order_details_shipment_aramex_how_to_cancel" = "How to cancel a shipment?";
-"checkout_order_summary_copyright_android" = "By placing your order you agree to our <a href=\"terms_and_conditions\">terms and conditions</a>, <a href=\"privacy_policy\">privacy policy</a> and returns policy and consent to some of your data being stored by noon which may be used to make shopping experiences better for you.";
-"checkout_payment_add_card_error_incorrect_cvv" = "Invalid CVV";
+"order_details_shipment_aramex_how_to_cancel" = "How can I cancel my order?";
+
+/*Needs legal approval*/
+"checkout_order_summary_copyright_android" = "By placing your order you agree to our <a href=\"terms-of-use\">Terms of Use</a>, <a href=\"privacy-policy\">Privacy Policy</a> and Returns Policy and consent to some of your data being stored by noon which may be used to make shopping experiences better for you.";
+"checkout_payment_add_card_error_incorrect_cvv" = "Incorrect CVV";
 "checkout_payment_add_card_error_incorrect_card_number" = "Invalid card number";
 "checkout_payment_add_card_error_incorrect_expiry_date" = "Invalid expiry date";
 
 /*MARK: Wallet*/
 "wallet_screen_tab_bar_transactions" = "Transactions";
-"wallet_screen_tab_bar_cards" = "Saved Cards";
+"wallet_screen_tab_bar_cards" = "Saved cards";
 "wallet_screen_transaction_status_completed" = "Completed";
 "wallet_screen_transaction_status_pending" = "Pending";
 
+/*Fuzzy*/
 /*Fuzzy*/
 "wallet_screen_transaction_id_ios" = "Transaction ID";
 "wallet_screen_your_balance_label" = "Your balance";
 
 /*MARK: Returns*/
+/*Fuzzy*/
 "returns_screen_order_number_label" = "Your return order number is:";
-"returns_screen_selected_pickup_location_label" = "Selected pick-up location";
-"returns_screen_selected_pickup_date_label" = "Selected return pick-up date";
-"returns_screen_selected_pickup_time_slot" = "Selected pick-up time slot";
+"returns_screen_selected_pickup_location_label" = "Selected pick up location";
+"returns_screen_selected_pickup_date_label" = "Selected return pick up date";
+"returns_screen_selected_pickup_time_slot" = "Selected pick up time slot";
 "returns_screen_calendar_add_label" = "Add to calendar";
 "returns_screen_calendar_added_label" = "Event added to calendar.";
 
 /*Fuzzy*/
-"returns_screen_calendar_not_added_label" = "Sorry we were not able to add that event to your calendar.";
+"returns_screen_calendar_not_added_label" = "Sorry we weren't able to add that event to your calendar.";
 "returns_screen_return_date_label" = "Return date:";
 "returns_screen_return_id_label" = "Return ID:";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Return*/
 "return_screen_return_amount_label" = "Return amount:";
 "returns_screen_return_reason_label" = "Return reason:";
-"returns_screen_return_reason_none_label" = "N/A";
+
+/*is this the right interpretation of what is needed?*/
+/*Fuzzy*/
+"returns_screen_return_reason_none_label" = "Changed my mind.";
 "returns_screen_invoice_number_label" = "Invoice number:";
 "returns_screen_order_id_label" = "Order ID:";
 "returns_screen_order_date_label" = "Order date:";
 "returns_screen_item_time_remaining_label" = "Time remaining";
-"returns_screen_reurn_history_label" = "Return history";
+"returns_screen_reurn_history_label" = "Returns history";
 "returns_screen_return_items_title" = "Return items";
-"returns_screen_return_detail_primary_reason_placeholder" = "Please select your reason of return";
-"returns_screen_return_detail_refund_choice_placeholder" = "You are eligible for a refund";
+
+/*Please verify this is on an item basis in the page*/
+"returns_screen_return_detail_primary_reason_placeholder" = "Why are you returning?";
+"returns_screen_return_detail_refund_choice_placeholder" = "Great news, you are eligible for a refund";
+
+/*Why is this a no?*/
 "returns_screen_return_detail_replace_choice_no" = "No, I would like to return";
-"returns_screen_return_detail_replace_choice_placeholder" = "You are eligible for an item exchange";
-"returns_screen_returns_pickup_details_address_selection_placeholder" = "Select address";
-"returns_screen_returns_pickup_details_date_selection_placeholder" = "Select date";
-"returns_screen_returns_pickup_details_time_slot_selection_placeholder" = "Select time";
-"returns_screen_thank_you_page_title" = "Your order has been placed!\\nYour order number is:";
+
+/*Please confirm it's guaranteed we can exchange at this point (ie no out of stock)*/
+"returns_screen_return_detail_replace_choice_placeholder" = "Good news, we can exchange that item";
+
+/*Fuzzy*/
+"returns_screen_returns_pickup_details_address_selection_placeholder" = "Please select your pick-up location";
+
+/*Fuzzy*/
+"returns_screen_returns_pickup_details_date_selection_placeholder" = "Select pick-up date";
+
+/*Fuzzy*/
+"returns_screen_returns_pickup_details_time_slot_selection_placeholder" = "Select pick-up time";
+
+/*according to design it should be "Your return number is:". Definitely not order number*/
+/*Fuzzy*/
+"returns_screen_thank_you_page_title" = "Mabrook! Your order has been placed, your order number is:";
 "returns_screen_thank_you_page_continue_shopping_button" = "Continue shopping";
 
 /*MARK: My Account*/
@@ -366,13 +400,16 @@ Fuzzy*/
 /*Fuzzy*/
 "my_account_menu_wallet" = "My Wallet";
 "my_account_menu_returns" = "Returns & Exchanges";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: My*/
 "my_account_menu_address_book" = "Address Book";
 "my_account_menu_profile" = "My Profile";
 
 /*MARK: My Profile*/
 "my_profile_logout_button" = "Logout";
 "my_profile_welcome_text_label" = "Hello, %s";
-"my_profile_logout_success_message_label" = "You are logged out";
+"my_profile_logout_success_message_label" = "You have been logged out";
 "my_profile_logout_popup_question_label" = "Are you sure you want to logout?";
 
 /*MARK: Common strings*/
@@ -409,23 +446,29 @@ Fuzzy*/
 /*Fuzzy*/
 "navigation_placeholder_what_looking_for_label" = "What are you looking for today?";
 
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Navigation*/
 /*Fuzzy*/
 "navigation_placeholder_search_in_category_f1" = "Search in %s";
 "search_screen_related_searches_title" = "Related Searches";
-"login_signup_logout_success_message" = "You are logged out";
+"login_signup_logout_success_message" = "You have been logged out";
 
 /*MARK: Product details*/
 "product_details_add_to_cart" = "Add to cart";
 "product_details_added_to_cart" = "Added";
 "product_details_description_title" = "Description";
 "product_details_specifications_title" = "Specifications";
+
+/*What are these?*/
 "product_details_related_videos" = "Related videos";
 "product_details_related_products_title" = "Related products";
 "product_details_recommended_products_title" = "Recommended products";
 "product_details_frequently_bought_together_total_f1" = "Total (%s):";
 "product_details_frequently_bought_together_title" = "Frequently bought together";
-"product_details_promise_genuine" = "100% genuine product";
-"product_details_promise_returns" = "Free return for 30 days";
+
+/*Hi is this singular only?*/
+"product_details_promise_genuine" = "100% authentic product";
+"product_details_promise_returns" = "Free returns for 30 days";
 "product_details_promise_sold_by_f1" = "Sold by %s";
 "product_details_buy_now_button" = "Buy now";
 "product_details_customer_reviews" = "Customer reviews";
@@ -447,6 +490,9 @@ Fuzzy*/
 "product_details_delivery_location_select_district" = "Select your district";
 "product_details_delivery_location_delivery_options_title" = "You can select a delivery option at checkout";
 "product_details_delivery_location_delivery_options_free" = "Free";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Product*/
 "product_details_about_this_product_title" = "About this product";
 "product_details_variant_picker_variant_out_of_stock_f1" = "%s (sold out)";
 "wallet_screen_transaction_id_f1_android" = "Transaction ID %s";
@@ -474,20 +520,22 @@ Fuzzy*/
 "checkout_progress_step_payment_title" = "Payment";
 "checkout_progress_step_summary_title" = "Review";
 "checkout_thankyou_add_to_calendar_event_title" = "My Orders";
-"checkout_thankyou_add_to_calendar_success" = "Event added to your calendar";
-"checkout_thankyou_add_to_calendar_failed" = "Failed to add event to calendar.";
+"checkout_thankyou_add_to_calendar_success" = "Success! We've dropped that in your calendar ";
+"checkout_thankyou_add_to_calendar_failed" = "Something went wrong, try again?";
 "checkout_thankyou_helpcard_title" = "Need help?";
 "checkout_thankyou_helpcard_call_us_button_f1" = "Call us at %s";
 "checkout_thankyou_helpcard_operation_time_label_f1" = "Our operating hours are between %s";
-"checkout_thankyou_helpcard_call_time_label" = "9am - 6pm (GMT+4), 7 days a week";
-"checkout_thankyou_helpcard_call_error" = "This device does not support call";
+
+/*I thought we were 24/7 please have this verified with CS*/
+"checkout_thankyou_helpcard_call_time_label" = "9AM - 6PM (GMT+4), 7 days a week";
+"checkout_thankyou_helpcard_call_error" = "Sorry it looks like your device doesn't support calls ";
 "checkout_thankyou_share_title" = "Follow us on social";
 "checkout_thankyou_done_button" = "Done";
 "checkout_thankyou_message_f1" = "Mabrook! Thank you for your order %s";
 "checkout_thankyou_confirmation_message_f1" = "Thank you. Your order is currently being processed. Please keep an eye out for our order confirmation message, which will be sent to: %s";
 
 /*Fuzzy*/
-"checkout_error_out_of_stock_all" = "Sorry, we’ve run out of stock of %s.\\nWhy not check out some of our other similar products?";
+"checkout_error_out_of_stock_all" = "Sorry, we’ve run out of stock of %s but here's some other items you might like.";
 "order_details_download_invoice" = "Download invoice";
 "order_details_order_date_title" = "Order date:";
 "order_details_shipment_count_title" = "Total shipments:";
@@ -509,16 +557,16 @@ Fuzzy*/
 /*Fuzzy*/
 "login_signup_resend_email" = "Resend Email";
 "login_signup_sms_verification_sent" = "A verification SMS has been sent";
-"login_signup_email_verification_sent" = "A verification email has been sent";
+"login_signup_email_verification_sent" = "Thanks, we just sent you a verification email";
 "login_signup_email_sent" = "Email sent";
 "login_signup_sms_sent" = "SMS sent";
 
 /*MARK: Search Filter*/
 "Brand" = "Brand";
-"Color" = "Color";
+"Color" = "Colour";
 "Size" = "Size";
 "product_details_size_guide_button" = "Size guide";
-"product_details_select_size_picker_title" = "Select Size";
+"product_details_select_size_picker_title" = "Select size";
 "product_details_select_color" = "Select colour";
 "login_signup_forgot_password_title" = "Forgot your password? Don't worry! we are here to help.";
 "login_signup_forgot_password_enter_account" = "Enter the mobile number or email address you used to register and we'll help you reset your password.";
@@ -529,7 +577,7 @@ Fuzzy*/
 "login_signup_forgot_password_reset" = "Reset";
 
 /*Fuzzy*/
-"login_signup_new_password_confirm" = "Confirm password*";
+"login_signup_new_password_confirm" = "Confirm password";
 "login_signup_forgot_password_privacy_footer" = "By registering you agree to the Terms of Use and Privacy Policy";
 "login_signup_forgot_password_invalid_email" = "Enter a valid email address";
 "login_signup_forgot_password_next_attempt_one" = "Next attempt in a minute";
@@ -538,10 +586,12 @@ Fuzzy*/
 "login_signup_forgot_password_next_attempt_greater_than_10" = "Next attempt in %d minutes";
 "home_order_tracking_status_title" = "Shipment status update";
 "home_order_tracking_shipment_title" = "Shipment items";
-"home_order_tracking_view_all" = "View all orders >";
+"home_order_tracking_view_all" = "View all orders";
 "product_details_missing_select_parameter_error_message" = "Please select a %s to continue";
-"login_signup_forgot_password_account_changed_title" = "هل تغير بريدك الإلكتروني أو رقم هاتفك المتحرك؟";
-"login_signup_forgot_password_account_changed_subtitle" = "إن كنت لم تعد تستخدم البريد الإلكتروني أو رقم الهاتف المسجلين في حسابك الخاص في نون، تواصل مع فريق خدمة العملاء ليساعدك أحدهم على الدخول إلى حسابك.";
+"login_signup_forgot_password_account_changed_title" = "Has your mobile number or email address changed?";
+"login_signup_forgot_password_account_changed_subtitle" = "No problem, Customer Service can help you access your account.";
+
+/*What is this?*/
 "order_details_shipments_deliver_to_address_delimiter" = ", ";
 "order_details_shipments_aramex_cancel_info" = "You can return items once they are delivered or reject your order on delivery";
 
@@ -552,12 +602,15 @@ Fuzzy*/
 "order_details_cancel_selected_reason" = "Selected reason";
 
 /*Intentionally in Arabic*/
+/*Fuzzy*/
 "language_preferred_user_language_instruction_ios" = "هل تود تغيير لغة التطبيق للعربية ؟";
 
 /*Intentionally in Arabic*/
+/*Fuzzy*/
 "language_preferred_user_language_change_ios" = "غير";
 
 /*Intentionally in Arabic*/
+/*Fuzzy*/
 "language_preferred_user_language_not_change_ios" = "لا";
 "language_preferred_user_language_title_ios" = "تغيير اللغة";
 
@@ -577,11 +630,11 @@ Fuzzy*/
 "language_change_title_ios" = "رجاء اختر لغتك:";
 
 /*Fuzzy*/
-"login_signup_error_invalid_email_mobile_number" = "Phone number or email address must be valid";
+"login_signup_error_invalid_email_mobile_number" = "That mobile number or email address doesn't look right, try again?";
 "cart_icon_badge_max_value" = "99+";
 
 /*Fuzzy*/
-"login_signup_otp_text_sent_message_f1" = "We have sent you an OTP code on %s, please enter it here to verify:";
+"login_signup_otp_text_sent_message_f1" = "We have sent you a code on %s, please enter it here to verify:";
 "navigation_drawer_open_description_android" = "Open drawer";
 "navigation_drawer_close_description_android" = "Close drawer";
 "common_close" = "Close";
@@ -592,25 +645,27 @@ Fuzzy*/
 "login_signup_error_invalid_mobile_number" = "The mobile number you entered does not seem to be a valid UAE number";
 "login_signup_error_password_length" = "Password must be at least 6 characters";
 "login_signup_error_enter_name" = "Enter your name";
-"login_signup_otp_invalid_code" = "OTP Code is invalid";
+"login_signup_otp_invalid_code" = "That code is invalid, try again?";
 
 /*MARK: Category*/
-"category_screen_no_item_label" = "We're having trouble displaying this categories, please try later.";
+"category_screen_no_item_label" = "Something went wrong displaying these categories, please try later";
 "category_screen_subcategories_list_title" = "Categories";
 
 /*MARK: Product List*/
-"product_list_no_item_label" = "We're having trouble displaying products for this category, please try later.";
-"product_list_no_recently_viewed_itemsm" = "You dont have any recently viewed item";
-"product_list_no_recommended_items" = "You dont have any recommended products";
+"product_list_no_item_label" = "Something went wrong displaying products for this category, please try again later";
+"product_list_no_recently_viewed_itemsm" = "You don't have any recently viewed items";
+"product_list_no_recommended_items" = "There aren't any recommended products right now";
 
 /*MARK: Common Error*/
 "common_error_request_5xx_title" = "Something went wrong";
-"common_error_request_5xx_message" = "Please try after some time";
+"common_error_request_5xx_message" = "Something's gone wrong, try again in a moment";
 "common_error_request_4xx_title" = "Something went wrong.";
 "common_error_request_4xx_message" = "Please try after some time.";
 "common_error_empty_textfield" = "This field is required";
 "common_error_empty_password" = "Must be at least 6 characters long";
 "common_error_invalid_email_address" = "Email address must be valid";
+
+/*What's the limit?*/
 "common_error_too_long_username" = "Name is too long";
 "common_error_invalid_phone_number" = "Phone number must be valid";
 "common_error_invalid_number" = "Number must be valid";
@@ -620,11 +675,17 @@ Fuzzy*/
 "wallet_credit_card_cell_make_default_label" = "Make default";
 "wallet_credit_card_cell_expiry_label" = "Expires:";
 "wallet_credit_card_cell_edit_button" = "Edit";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Wallet*/
 "wallet_credit_card_cell_delete_button" = "Delete";
 "wallet_credit_transaction_cell_type_cash_label" = "Wallet";
 
 /*MARK: Settings*/
 "settings_screen_title_legal_label" = "Legal links";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Settings*/
 "settings_screen_privacy_policy_label" = "Privacy policy";
 "settings_screen_terms_of_use_label" = "Terms of use";
 "settings_screen_terms_of_sale_label" = "Terms of sale";
@@ -633,6 +694,9 @@ Fuzzy*/
 "permission_location_message" = "noon requires location access to improve your delivery experience. Please grant access in settings";
 "permission_location_title" = "Location Required";
 "search_bar_placeholder_what_looking_for_label" = "What are you looking for today?";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Search*/
 "search_bar_placeholder_search_in_category_f1" = "Search in %s";
 "common_copyright" = "Copyright © 2017 noon";
 
@@ -640,22 +704,34 @@ Fuzzy*/
 "returns_screen_selected_pickup_time_between_f2" = "Between %1$s and %2$s";
 "checkout_error_out_of_stock_partial" = "Sorry, we have removed %s\\nunfortunately it was limited stock only.";
 "common_crash_popup_title_android" = "Process Failed!";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Accessibility*/
 "accessibility_common_share" = "Share";
 "search_screen_results_count_one" = "1 result";
 "search_screen_results_count_two" = "2 result";
-"search_screen_results_count_less_than_10" = "%d results";
-"search_screen_results_count_greater_than_10" = "%d results";
 
 /*Fuzzy*/
-"checkout_order_summary_error_invalid_payment_body_f1" = "Sorry, we weren\\'t able to process your payment. To resolve this issue, please check that your card details are correct, and change your payment details if necessary. If that\\'s all in order, contact our Customer Service team on %s";
+"search_screen_results_count_less_than_10_f1" = "%d results";
+
+/*Fuzzy*/
+"search_screen_results_count_greater_than_10_f1" = "%d results";
+
+/*Fuzzy*/
+"checkout_order_summary_error_invalid_payment_body_f1" = "Sorry, we weren't able to process your payment. Please check that your card details are correct, and change your payment details if necessary. If that's all in order, contact our Customer Service team on %s.";
 "checkout_order_summary_error_invalid_payment_title" = "Update payment";
 "checkout_order_summary_error_insufficient_funds_title" = "Please select another payment method";
 "checkout_address_error_out_of_area_f1" = "We\\'re sorry, but we don\\'t deliver to the area/address you\\'ve just added. Please enter another address or contact the Customer Service team at %s";
 "search_screen_results_count_zero" = "No results found";
 
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Checkout*/
 /*Fuzzy*/
 "checkout_address_add_new_subtitle" = "We deliver straight to your door";
 "common_undo" = "Undo";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Accessbility*/
 "accessbility_navigation_cart" = "Cart";
 "checkout_address_selection_title" = "My addresses";
 "checkout_order_summary_continue_place_order" = "Continue & Place order";
@@ -664,14 +740,23 @@ Fuzzy*/
 "checkout_payment_add_new_card_title" = "Add new card";
 "search_screen_filter_price_to" = "To";
 "search_screen_filter_price_from" = "From";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Order*/
 "order_details_buy_again_button" = "Buy it again";
 "product_details_out_of_stock" = "Unfortunately, this item is out of stock.";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Address*/
 "address_add_address_cancel_error" = "Do you want to cancel adding/editing current address?";
 "home_order_tracking_items_one" = "item";
 "home_order_tracking_items_less_than_10" = "items";
 "home_order_tracking_items_greater_than_10" = "items";
 "returns_screen_item_time_remaining_label_f1" = "Time remaining (%s left)";
 "time_remaining_days_singular_f1" = "%d day";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Time*/
 "time_remaining_days_plural_f1" = "%d days";
 "menu_item_language" = "العربية";
 "checkout_order_summary_cvv_hint" = "Please enter the 3-digit CVV code, which you can find on the back of your card";
@@ -686,14 +771,26 @@ Fuzzy*/
 "time_remaining_minutes_singular_f1" = "%@ minute";
 "time_remaining_minutes_plural_f1" = "%@ minutes";
 "time_remaining_less_than_minute" = "Less than minute";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Common*/
 "common_calendar_event_title_f1" = "noon: %s";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Returns*/
 "returns_screen_add_to_calendar_event_title_f1" = "return due for pickup %s";
 "checkout_thankyou_view_order_status_button" = "View order status";
 "checkout_thankyou_shipment_delivered_label" = "It will be delivered";
 "change_language_loading_message_android" = "Updating your language preference";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Video*/
 "video_player_error_cannot_play" = "Cannot play that video. Please try again later.";
 "coming_soon_download_invoice_title" = "Download invoice";
 "coming_soon_returns_and_exchange" = "Returns & exchanges";
+
+/*//////////////////////////////////////////////////////////////////////////////
+ MARK: Coming*/
 "coming_soon_cancellation" = "Cancellation";
 "returns_screen_thankyou_message_mail" = "Thank You! Your return order has been created. An email confirmation has been sent to you.";
 "returns_screen_thankyou_message_sms" = "Thank You! Your return order has been created. An sms confirmation has been sent to you.";
@@ -731,13 +828,21 @@ Fuzzy*/
 "login_signup_user_your_mobile_number_instead" = "I'd like to login with my mobile";
 "login_signup_place_card" = "Enter your card details";
 "login_signup_resend" = "Resend";
-"login_signup_have_sent_otp " = "We sent you a one-time password on %s to verify this number";
+
+/*Fuzzy*/
+"login_signup_have_sent_otp" = "We sent a code to %s to verify this number";
 "login_signup_mobile_instead" = "I'd like to login with my mobile instead";
 "login_signup_email_instead" = "I'd like to login with my email instead";
 "login_signup_mobile_number_placeholder" = "Mobile e.g. 0512345678 or +971512345678";
 "login_sigup_error_invalid_email_mobile_number" = "Phone number or email must be valid";
 "common_notice" = "Notice!";
-"returns_screen_empty_state_need_help_label" = "Do you need help?";
+
+/*I cant grab the google link from a hover state can you drop it in here*/
+/*https://drive.google.com/open?id=0B2mWrSwH3cesVHNubnVSNVNkOHM*/
+"returns_screen_empty_state_need_help_label" = "";
+
+/*https://drive.google.com/open?id=0B2mWrSwH3cesb1JmaWlHcVlBRUE*/
+/*Fuzzy*/
 "returns_screen_empty_state_chat_with_us" = "Chat with us";
 "returns_screen_return_detail_return_option_placeholder" = "Please select your return option";
 "menu_item_recommendations_title_label" = "Recommendations";
@@ -760,3 +865,80 @@ Fuzzy*/
 "order_details_shipment_status_shipping" = "Shipping";
 "search_screen_suggested_results_header_see_all_button_f1" = "See all %@ results";
 "language.preferred.user.language.dismiss" = "تغيير اللغة";
+
+/*is this correct in terms of what it describes - a pickup slot?*/
+/*Title of event that will go to user calendar for returned items*/
+"returns_screen_thankyou_add_to_calendar_event_title" = "Add the return pickup slot to your calendar";
+
+/*Message shown to user when event was added in calendar for returned items*/
+"returns_screen_thankyou_add_to_calendar_success" = "Done! That's in the calendar for you.";
+
+/*why would this fail?*/
+/*Message shown to user when event was added in calendar for returned items*/
+"returns_screen_thankyou_add_to_calendar_failed" = "Sorry we couldn't add that to your calendar, try again?";
+
+/*Fuzzy*/
+"returns_screen_returns_pickup_details_items_title_f2" = "Return item %1$d of %2$d";
+
+/*Fuzzy*/
+"return_screen_status_collection_booked" = "Collection booked";
+
+/*Fuzzy*/
+"return_screen_status_returned_order" = "Returned";
+
+/*Error shown on text field when password confirmation doesn't match  */
+/*Fuzzy*/
+"login_signup_reset_password_error_password_match" = "Passwords don't match";
+
+/*Short message to say user search did not find any results*/
+"address_map_location_found_not_found" = "No results!";
+"search_screen_filter_selected_categories_f1" = "(%d selected)";
+
+/*Fuzzy*/
+"search_screen_filter_all_category_selection_title_f1" = "All %s categories";
+
+/*Fuzzy*/
+"search_screen_filter_select_all" = "All";
+
+/*Fuzzy*/
+"search_screen_filter_product_count_f1" = "(%d)";
+"search_screen_filter_view_all_categories_f1" = "View all %s categories";
+
+/*After selecting items to be cancelled this button will become enabled
+Pressing the button changes screen where we will be able to select 
+Cancel reason for every item*/
+/*E.g. "Continue to cancel" - agree to cancel selected shipments*/
+/*Fuzzy*/
+"order_details_shipments_cancel_selection_continue_button" = "Continue to cancel";
+
+/*CONTEXT: Error shown on text field when password confirmation doesn't match*/
+"login_signup_reset_password_error_password_match" = "";
+
+/*Title of the screen when cancelling whole shipment e.g. "Cancel shipment %1$d" where %s is shipment number (1, 2, 3, ...)*/
+/*Fuzzy*/
+"order_details_shipments_cancel_reason_shipment_title_f1" = "Cancel shipment %1$d";
+
+/*Title of the screen when specifying reason for cancelling one of the shipment items*/
+/*Fuzzy*/
+"order_details_shipments_cancel_reason_items_title_f2" = "Cancel item %1$d of %2$d";
+
+/*Text above a drop down that becomes visible when cancellation reason is selected*/
+/*Fuzzy*/
+"order_details_shipments_cancel_reason_label" = "Reason of return";
+
+/*Text that is visible when the cancellation reason is not yet selected*/
+/*Fuzzy*/
+"order_details_shipments_cancel_reason_select_placeholder" = "Please select your reason of return";
+
+/*Text of the button during cancellation reason selection that moves us to next shipment item*/
+/*Fuzzy*/
+"order_details_shipments_cancel_reason_next_product_button" = "Next item";
+
+/*Text of the button during cancellation reason selection that triggers cancellation
+ of all selected items and moves us to cancellation confirmation screen*/
+/*Fuzzy*/
+"order_details_shipments_cancel_reason_do_cancel_button" = "Continue";
+
+/*CONTEXT: https://drive.google.com/open?id=0B2mWrSwH3cesb1JmaWlHcVlBRUE*/
+"returns_screen_empty_state_chat_with_us" = "";
+"forgot_password_customer_service_name" = "Customer Service";
